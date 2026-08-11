@@ -55,7 +55,7 @@ export default async function StudiesPage({ searchParams }: StudiesPageProps) {
             로봇별 소아/임상 연구 근거를 탐색하고 원문 또는 레지스트리 출처로 바로 이동할 수
             있습니다.
             <br />
-            조사 범위: 각 로봇별 논문 원문, 학술 출처(저널/학회), 임상·레지스트리 링크 및 검증 가능한 2차 출처
+            조사 범위: PubMed, IEEE Xplore, ACM DL, Scopus
             <br />
             조사 목적: 소셜로봇의 연구 근거 수준과 적용 가능성을 비교·검토
             <br />
