@@ -19,6 +19,7 @@ export const ROBOT_THUMBNAIL_OVERRIDES: Record<string, string[]> = {
   ],
   "ROBOT-0017": ["asset://cocomo-manual"],
   "ROBOT-0018": ["asset://inu-manual"],
+  "ROBOT-0019": ["asset://rumi-manual"],
   "ROBOT-0020": [
     "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1205/K151_stack_chan_main_pictures_01.webp"
   ],
@@ -30,9 +31,7 @@ export const ROBOT_THUMBNAIL_OVERRIDES: Record<string, string[]> = {
   "ROBOT-0024": ["https://ui44.com/images/robots/miko-3.webp"],
   "ROBOT-0025": ["https://ui44.com/images/robots/miko-mini.png"],
   "ROBOT-0030": ["https://ui44.com/images/robots/reachy-mini.jpg"],
-  "ROBOT-0031": [
-    "https://mma.prnewswire.com/media/2856170/image_5028920_11306394.jpg?p=facebook"
-  ],
+  "ROBOT-0031": ["asset://prime-t1-manual"],
   "ROBOT-0032": [
     "https://cdn.prod.website-files.com/6655b1a239c70c0be4c6e48d/6661b2b67ffc5bdb0d8e8d37_web%201%201.jpg"
   ],
@@ -48,15 +47,13 @@ export const ROBOT_THUMBNAIL_OVERRIDES: Record<string, string[]> = {
   "ROBOT-0040": [
     "https://tombot.com/cdn/shop/files/IMG_4159-Tombot_2025_Selects-23-WE.jpg?v=1767504868"
   ],
-  "ROBOT-0041": ["https://mma.prnewswire.com/media/2855383/1_1.jpg?p=facebook"],
+  "ROBOT-0041": ["asset://sweekar-manual"],
   "ROBOT-0042": ["asset://tuya-aura-manual"],
   "ROBOT-0043": ["asset://alpha-mini-manual"],
   "ROBOT-0044": ["https://ui44.com/images/robots/kangbao-health-baby.webp"],
   "ROBOT-0045": ["https://i.ytimg.com/vi/k_1Paexlc_A/hqdefault.jpg"],
   "ROBOT-0047": ["https://ui44.com/images/robots/mirumi.webp"],
-  "ROBOT-0049": [
-    "https://mma.prnewswire.com/media/590163/Jibo_Social_Robot.jpg?p=facebook"
-  ],
+  "ROBOT-0049": ["asset://jibo-manual"],
   "ROBOT-0053": [
     "https://www.softbank.jp/-/media/sb/sjp/robot/set/data/img/shared/mainvisual/550x550/img-pepper-20180911/img-customer_en.png?rev=dccf369f56df4f81863171e653ff2f03&sc_lang=en&h=550&w=550&la=en&hash=EE7F3DCC2DD7CF273DAE9E8BFDD86F30"
   ]

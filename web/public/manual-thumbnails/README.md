@@ -9,5 +9,9 @@
 - ballie-manual.png
 - alpha-mini-manual.png
 - tuya-aura-manual.png
+- prime-t1-manual.png
+- sweekar-manual.png
+- jibo-manual.png
+- rumi-manual.png
 
 배포 시 Vercel Root Directory가 `web`이면 이 경로가 정적 파일로 제공됩니다.

@@ -5,7 +5,7 @@ const thumbnailCache = new Map<string, Promise<string | null>>();
 const THUMBNAIL_REVALIDATE_SECONDS = 60 * 60 * 24;
 const THUMBNAIL_TIMEOUT_MS = 8000;
 const MAX_HTML_BYTES = 1_000_000;
-const THUMBNAIL_PROXY_VERSION = "2026-08-11-2";
+const THUMBNAIL_PROXY_VERSION = "2026-08-11-3";
 export const MANUAL_ASSET_PUBLIC_PATHS: Record<string, string> = {
   "asset://paro-manual": "/manual-thumbnails/paro-manual.png",
   "asset://joobie-manual": "/manual-thumbnails/joobie-manual.png",
@@ -13,7 +13,11 @@ export const MANUAL_ASSET_PUBLIC_PATHS: Record<string, string> = {
   "asset://inu-manual": "/manual-thumbnails/inu-manual.png",
   "asset://ballie-manual": "/manual-thumbnails/ballie-manual.png",
   "asset://alpha-mini-manual": "/manual-thumbnails/alpha-mini-manual.png",
-  "asset://tuya-aura-manual": "/manual-thumbnails/tuya-aura-manual.png"
+  "asset://tuya-aura-manual": "/manual-thumbnails/tuya-aura-manual.png",
+  "asset://prime-t1-manual": "/manual-thumbnails/prime-t1-manual.png",
+  "asset://sweekar-manual": "/manual-thumbnails/sweekar-manual.png",
+  "asset://jibo-manual": "/manual-thumbnails/jibo-manual.png",
+  "asset://rumi-manual": "/manual-thumbnails/rumi-manual.png"
 };
 const USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
@@ -208,6 +212,7 @@ function scoreCandidate(value: string): number {
     lowered.includes("icon") ||
     lowered.includes("avatar") ||
     lowered.includes("sprite") ||
+    lowered.includes("og-cover") ||
     lowered.includes("payment_icons") ||
     lowered.includes("favicon")
   ) {
@@ -287,6 +292,9 @@ function pickThumbnailFromHtml(html: string, pageUrl: string): string | null {
   );
 
   for (const candidate of orderedCandidates) {
+    if (scoreCandidate(candidate) < 0) {
+      continue;
+    }
     const normalized = normalizeToAbsoluteUrl(candidate, pageUrl);
     if (normalized) {
       return normalized;
@@ -391,15 +399,7 @@ export function getForcedManualThumbnailUrl(candidate: string): string | null {
   if (manualPath) {
     return manualPath;
   }
-  try {
-    const normalized = new URL(candidate).toString();
-    if (normalized.startsWith("http://") || normalized.startsWith("https://")) {
-      return normalized;
-    }
-    return null;
-  } catch {
-    return null;
-  }
+  return null;
 }
 
 export function getThumbnailProxyUrlFromCandidates(candidates: string[]): string | null {

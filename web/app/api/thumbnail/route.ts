@@ -30,6 +30,18 @@ const LOCAL_THUMBNAIL_ASSETS: Record<string, { publicPath: string }> = {
   },
   "asset://tuya-aura-manual": {
     publicPath: "/manual-thumbnails/tuya-aura-manual.png"
+  },
+  "asset://prime-t1-manual": {
+    publicPath: "/manual-thumbnails/prime-t1-manual.png"
+  },
+  "asset://sweekar-manual": {
+    publicPath: "/manual-thumbnails/sweekar-manual.png"
+  },
+  "asset://jibo-manual": {
+    publicPath: "/manual-thumbnails/jibo-manual.png"
+  },
+  "asset://rumi-manual": {
+    publicPath: "/manual-thumbnails/rumi-manual.png"
   }
 };
 
