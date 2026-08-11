@@ -34,7 +34,7 @@ export default async function HomePage() {
 
       <section className="hero-tile">
         <div className="container hero-content">
-          <p className="hero-kicker">Dataset First</p>
+          <p className="hero-kicker"></p>
           <h1>소셜로봇을 연구의 관점에서 탐색하세요.</h1>
           <p>
             제품 정보, 도입 가능성, 소아/임상 근거를 CSV 아카이브로
@@ -43,9 +43,6 @@ export default async function HomePage() {
           <div className="hero-actions">
             <Link href="/robots" className="btn-primary">
               로봇 탐색하기
-            </Link>
-            <Link href="/about" className="btn-secondary">
-              데이터 정보
             </Link>
           </div>
         </div>
