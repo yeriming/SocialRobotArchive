@@ -1,12 +1,16 @@
 import Link from "next/link";
 import { getRobots } from "@/lib/data/archive";
-import { getThumbnailProxyUrl } from "@/lib/data/thumbnail";
+import { getThumbnailProxyUrlFromCandidates } from "@/lib/data/thumbnail";
+import {
+  ROBOT_THUMBNAIL_OVERRIDES,
+  ROBOT_THUMBNAIL_STRICT_IDS
+} from "@/lib/data/robotThumbnailOverrides";
 
 type RobotsPageProps = {
   searchParams?: Promise<{
     country?: string;
-    manufacturer?: string;
     status?: string;
+    evidence?: string;
   }>;
 };
 
@@ -14,18 +18,28 @@ function uniqSorted(values: string[]): string[] {
   return Array.from(new Set(values.filter(Boolean))).sort((a, b) => a.localeCompare(b, "ko"));
 }
 
+function shouldShowStatusTag(status?: string): boolean {
+  if (!status) return false;
+  return status.replace(/\s+/g, "") !== "정보확인필요";
+}
+
 export default async function RobotsPage({ searchParams }: RobotsPageProps) {
   const params = (await searchParams) ?? {};
   const robots = await getRobots();
 
   const countries = uniqSorted(robots.map((robot) => robot.manufacturer_country));
-  const manufacturers = uniqSorted(robots.map((robot) => robot.manufacturer));
   const statuses = uniqSorted(robots.map((robot) => robot.status));
 
   const filtered = robots.filter((robot) => {
+    const hasResearchEvidence =
+      robot.pediatric_study_exists === "TRUE" ||
+      robot.clinical_study_exists === "TRUE" ||
+      robot.general_hri_study_exists === "TRUE";
+
     if (params.country && robot.manufacturer_country !== params.country) return false;
-    if (params.manufacturer && robot.manufacturer !== params.manufacturer) return false;
     if (params.status && robot.status !== params.status) return false;
+    if (params.evidence === "HAS" && !hasResearchEvidence) return false;
+    if (params.evidence === "NONE" && hasResearchEvidence) return false;
     return true;
   });
 
@@ -39,6 +53,7 @@ export default async function RobotsPage({ searchParams }: RobotsPageProps) {
           <nav className="nav-links">
             <Link href="/robots">로봇 탐색</Link>
             <Link href="/studies">연구 사례</Link>
+            <Link href="/news">최신 동향</Link>
             <Link href="/about">데이터 정보</Link>
           </nav>
         </div>
@@ -49,6 +64,12 @@ export default async function RobotsPage({ searchParams }: RobotsPageProps) {
           <h1 className="list-title">로봇 탐색</h1>
           <p className="list-subtitle">
             국가, 제조사, 판매 상태로 필터링해 연구 가능한 로봇을 탐색하세요.
+            <br />
+            조사 범위: ui44, IEEE robotsguide(해외 소셜로봇 DB), 로봇 제조사 공식 홈페이지
+            <br />
+            조사 목적: 연구실 관점에서 활용 가능한 소셜로봇 후보를 체계적으로 파악
+            <br />
+            조사 대상: 소셜로봇의 기본 정보(제조사, 국가, 판매 상태, 공식 링크), 연구 근거 여부(소아/임상/HRI)
           </p>
 
           <form method="get" className="filter-row">
@@ -59,18 +80,6 @@ export default async function RobotsPage({ searchParams }: RobotsPageProps) {
                 {countries.map((country) => (
                   <option key={country} value={country}>
                     {country}
-                  </option>
-                ))}
-              </select>
-            </label>
-
-            <label>
-              제조사
-              <select name="manufacturer" defaultValue={params.manufacturer ?? ""}>
-                <option value="">전체</option>
-                {manufacturers.map((manufacturer) => (
-                  <option key={manufacturer} value={manufacturer}>
-                    {manufacturer}
                   </option>
                 ))}
               </select>
@@ -88,6 +97,15 @@ export default async function RobotsPage({ searchParams }: RobotsPageProps) {
               </select>
             </label>
 
+            <label>
+              연구 근거 여부
+              <select name="evidence" defaultValue={params.evidence ?? ""}>
+                <option value="">전체</option>
+                <option value="HAS">있음</option>
+                <option value="NONE">없음</option>
+              </select>
+            </label>
+
             <button type="submit" className="btn-primary">
               적용
             </button>
@@ -99,15 +117,22 @@ export default async function RobotsPage({ searchParams }: RobotsPageProps) {
         <div className="container">
           <p className="result-count">총 {filtered.length}개</p>
           <div className="robot-grid">
-            {filtered.map((robot) => (
+            {filtered.map((robot) => {
+              const manualOverrides = ROBOT_THUMBNAIL_OVERRIDES[robot.robot_id] ?? [];
+              const thumbnailUrl =
+                ROBOT_THUMBNAIL_STRICT_IDS.has(robot.robot_id) && manualOverrides.length === 0
+                  ? null
+                  : getThumbnailProxyUrlFromCandidates([
+                      ...manualOverrides,
+                      robot.official_url,
+                      robot.spec_source_url,
+                      robot.source_database_url
+                    ]);
+              return (
               <article key={robot.robot_id} className="robot-card">
                 <div className="card-thumb">
-                  {getThumbnailProxyUrl(robot.official_url) ? (
-                    <img
-                      src={getThumbnailProxyUrl(robot.official_url) ?? ""}
-                      alt={`${robot.robot_name} 썸네일`}
-                      loading="lazy"
-                    />
+                  {thumbnailUrl ? (
+                    <img src={thumbnailUrl} alt={`${robot.robot_name} 썸네일`} loading="lazy" />
                   ) : (
                     <span className="thumb-fallback">NO IMAGE</span>
                   )}
@@ -118,12 +143,13 @@ export default async function RobotsPage({ searchParams }: RobotsPageProps) {
                 <p>{robot.manufacturer || "제조사 확인 중"}</p>
                 <p>{robot.manufacturer_country || "국가 확인 중"}</p>
                 <div className="tag-row">
-                  <span className="tag">{robot.status || "상태 확인 중"}</span>
+                  {shouldShowStatusTag(robot.status) && <span className="tag">{robot.status}</span>}
                   {robot.pediatric_study_exists === "TRUE" && <span className="tag">소아 연구</span>}
                   {robot.clinical_study_exists === "TRUE" && <span className="tag">임상 연구</span>}
                 </div>
               </article>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

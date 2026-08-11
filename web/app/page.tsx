@@ -1,6 +1,15 @@
 import Link from "next/link";
 import { getRobots } from "@/lib/data/archive";
-import { getThumbnailProxyUrl } from "@/lib/data/thumbnail";
+import { getThumbnailProxyUrlFromCandidates } from "@/lib/data/thumbnail";
+import {
+  ROBOT_THUMBNAIL_OVERRIDES,
+  ROBOT_THUMBNAIL_STRICT_IDS
+} from "@/lib/data/robotThumbnailOverrides";
+
+function shouldShowStatusTag(status?: string): boolean {
+  if (!status) return false;
+  return status.replace(/\s+/g, "") !== "정보확인필요";
+}
 
 export default async function HomePage() {
   const robots = await getRobots();
@@ -17,7 +26,7 @@ export default async function HomePage() {
           <nav className="nav-links">
             <Link href="/robots">로봇 탐색</Link>
             <Link href="/studies">연구 사례</Link>
-            <a href="#">비교하기</a>
+            <Link href="/news">최신 동향</Link>
             <Link href="/about">데이터 정보</Link>
           </nav>
         </div>
@@ -46,15 +55,23 @@ export default async function HomePage() {
         <div className="container">
           <h2>주요 로봇</h2>
           <div className="featured-grid">
-            {featuredRobots.map((robot) => (
+            {featuredRobots.map((robot) => {
+              const manualOverrides = robot ? (ROBOT_THUMBNAIL_OVERRIDES[robot.robot_id] ?? []) : [];
+              const thumbnailUrl =
+                robot && ROBOT_THUMBNAIL_STRICT_IDS.has(robot.robot_id) && manualOverrides.length === 0
+                  ? null
+                  : getThumbnailProxyUrlFromCandidates([
+                      ...manualOverrides,
+                      robot?.official_url ?? "",
+                      robot?.spec_source_url ?? "",
+                      robot?.source_database_url ?? ""
+                    ]);
+
+              return (
               <article key={robot?.robot_id} className="featured-card">
                 <div className="featured-thumb">
-                  {getThumbnailProxyUrl(robot?.official_url ?? "") ? (
-                    <img
-                      src={getThumbnailProxyUrl(robot?.official_url ?? "") ?? ""}
-                      alt={`${robot?.robot_name ?? "로봇"} 썸네일`}
-                      loading="lazy"
-                    />
+                  {thumbnailUrl ? (
+                    <img src={thumbnailUrl} alt={`${robot?.robot_name ?? "로봇"} 썸네일`} loading="lazy" />
                   ) : (
                     <span className="thumb-fallback">NO IMAGE</span>
                   )}
@@ -65,14 +82,15 @@ export default async function HomePage() {
                   {robot?.manufacturer_country || "국가 확인 중"}
                 </p>
                 <div className="tag-row">
-                  <span className="tag">{robot?.status || "상태 확인 중"}</span>
+                  {shouldShowStatusTag(robot?.status) && <span className="tag">{robot?.status}</span>}
                   {robot?.clinical_study_exists === "TRUE" && <span className="tag">임상 연구</span>}
                 </div>
                 <Link href={`/robots/${robot?.robot_id}`} className="detail-link">
                   자세히 보기
                 </Link>
               </article>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

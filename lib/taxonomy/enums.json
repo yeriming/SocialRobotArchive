@@ -122,6 +122,60 @@
     "image",
     "other"
   ],
+  "news_source_id": [
+    "IROBOTNEWS",
+    "IEEE_SPECTRUM"
+  ],
+  "news_region": [
+    "KR",
+    "GLOBAL"
+  ],
+  "news_screening_status": [
+    "INCLUDE",
+    "EXCLUDE",
+    "REVIEW"
+  ],
+  "news_primary_category": [
+    "제품·출시",
+    "상호작용 기술",
+    "연구·HRI",
+    "의료·돌봄",
+    "소아·교육",
+    "산업·정책"
+  ],
+  "news_relevance_level": [
+    "HIGH",
+    "MEDIUM",
+    "LOW",
+    "NONE",
+    "UNKNOWN"
+  ],
+  "news_tags": [
+    "소아",
+    "병원",
+    "자폐 스펙트럼",
+    "정신건강",
+    "교육",
+    "노인",
+    "재활",
+    "돌봄",
+    "음성",
+    "LLM",
+    "컴퓨터 비전",
+    "감정 인식",
+    "시선",
+    "제스처",
+    "터치",
+    "촉각",
+    "멀티모달",
+    "신제품",
+    "상용화",
+    "연구",
+    "임상",
+    "실증",
+    "정책",
+    "시장"
+  ],
   "tri_state": [
     "TRUE",
     "FALSE",

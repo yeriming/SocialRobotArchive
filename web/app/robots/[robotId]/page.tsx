@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  getNewsByRobotId,
   getPricesByRobotId,
   getRobotById,
   getSourcesByRobotId,
@@ -13,11 +14,12 @@ type RobotDetailProps = {
 
 export default async function RobotDetailPage({ params }: RobotDetailProps) {
   const { robotId } = await params;
-  const [robot, prices, studies, sources] = await Promise.all([
+  const [robot, prices, studies, sources, relatedNews] = await Promise.all([
     getRobotById(robotId),
     getPricesByRobotId(robotId),
     getStudiesByRobotId(robotId),
-    getSourcesByRobotId(robotId)
+    getSourcesByRobotId(robotId),
+    getNewsByRobotId(robotId)
   ]);
 
   if (!robot) {
@@ -34,6 +36,7 @@ export default async function RobotDetailPage({ params }: RobotDetailProps) {
           <nav className="nav-links">
             <Link href="/robots">로봇 탐색</Link>
             <Link href="/studies">연구 사례</Link>
+            <Link href="/news">최신 동향</Link>
             <Link href="/about">데이터 정보</Link>
           </nav>
         </div>
@@ -167,6 +170,29 @@ export default async function RobotDetailPage({ params }: RobotDetailProps) {
                         출처 링크 열기
                       </a>
                     )}
+                  </article>
+                ))}
+              </div>
+            )}
+          </section>
+
+          <section className="detail-card">
+            <h2>최근 관련 동향</h2>
+            {relatedNews.length === 0 ? (
+              <p>연결된 최신 동향 기사가 아직 없습니다.</p>
+            ) : (
+              <div className="detail-list">
+                {relatedNews.slice(0, 8).map((news) => (
+                  <article key={news.news_id} className="row-card">
+                    <h3>{news.title}</h3>
+                    <p>
+                      {news.primary_category || "분류 확인 중"} · {news.published_at.slice(0, 10)} ·{" "}
+                      {news.source_id === "IROBOTNEWS" ? "로봇신문" : "IEEE Spectrum"}
+                    </p>
+                    <p>{news.summary_ko || news.relevance_reason}</p>
+                    <a href={news.source_url} target="_blank" rel="noreferrer" className="detail-link">
+                      원문 보기
+                    </a>
                   </article>
                 ))}
               </div>

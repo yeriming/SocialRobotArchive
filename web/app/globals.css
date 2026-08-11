@@ -238,15 +238,16 @@ a {
   margin-top: 12px;
   font-size: 17px;
   letter-spacing: -0.374px;
-  line-height: 1.47;
+  line-height: 1.8;
 }
 
 .filter-row {
   margin-top: 24px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
   gap: 12px;
   align-items: flex-end;
+  width: 100%;
 }
 
 .filter-row label {
@@ -254,8 +255,6 @@ a {
   gap: 6px;
   font-size: 14px;
   min-width: 0;
-  max-width: 340px;
-  flex: 1 1 220px;
 }
 
 .filter-row select {
@@ -275,7 +274,7 @@ a {
   height: 44px;
   min-width: 112px;
   padding: 0 22px;
-  flex: 0 0 auto;
+  justify-self: end;
 }
 
 .list-tile {
@@ -385,7 +384,7 @@ a {
 
 .detail-link {
   color: var(--apple-blue);
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .section-stack {
@@ -428,7 +427,9 @@ a {
   border-radius: 18px;
   padding: 24px;
   background: #ffffff;
-  min-height: 420px;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
 }
 
 .study-card h2 {
@@ -439,10 +440,90 @@ a {
 }
 
 .study-card p {
-  margin: 10px 0 0;
+  margin: 8px 0 0;
   font-size: 14px;
   color: #333333;
   line-height: 1.5;
+}
+
+.study-card .detail-link {
+  margin-top: auto;
+  padding-top: 8px;
+  align-self: flex-start;
+}
+
+.study-title {
+  min-height: 48px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.study-meta {
+  min-height: 36px;
+}
+
+.study-robot {
+  min-height: 36px;
+}
+
+.study-tags {
+  min-height: 28px;
+  align-content: flex-start;
+  margin-top: 10px;
+}
+
+.study-summary {
+  min-height: 64px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.news-card {
+  min-height: 420px;
+}
+
+.news-kicker {
+  margin-top: 0;
+  min-height: 20px;
+}
+
+.news-title {
+  min-height: 62px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.news-summary {
+  min-height: 84px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.news-robots {
+  min-height: 42px;
+}
+
+.news-tags {
+  min-height: 32px;
+  align-content: flex-start;
+}
+
+.news-source {
+  min-height: 22px;
+}
+
+.news-link {
+  margin-top: auto;
+  padding-top: 8px;
+  align-self: flex-start;
 }
 
 .inline-link {

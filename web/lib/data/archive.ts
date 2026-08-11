@@ -8,6 +8,8 @@ export type RobotRecord = {
   status: string;
   robot_type: string;
   official_url: string;
+  spec_source_url: string;
+  source_database_url: string;
   pediatric_study_exists: string;
   clinical_study_exists: string;
   general_hri_study_exists: string;
@@ -75,6 +77,37 @@ export type ValidationSummary = {
   };
 };
 
+export type NewsRecord = {
+  news_id: string;
+  source_id: string;
+  region: string;
+  title: string;
+  author: string;
+  published_at: string;
+  source_category: string;
+  source_url: string;
+  primary_category: string;
+  tags: string[];
+  summary_ko: string;
+  robot_ids: string[];
+  manufacturer_ids: string[];
+  archive_candidate: string;
+  pediatric_relevance: string;
+  clinical_relevance: string;
+  screening_status: string;
+  relevance_reason: string;
+};
+
+export type NewsTrendSummary = {
+  includeCount: number;
+  monthlyCounts: Record<string, number>;
+  categoryCounts: Record<string, number>;
+  pediatricRelatedCount: number;
+  careRelatedCount: number;
+  archiveCandidateCount: number;
+  topTags: Array<{ tag: string; count: number }>;
+};
+
 export async function getRobots(): Promise<RobotRecord[]> {
   const rows = await readCsvAsObjects("02_robots.csv");
   return rows.map((row) => ({
@@ -85,6 +118,8 @@ export async function getRobots(): Promise<RobotRecord[]> {
     status: row.status ?? "",
     robot_type: row.robot_type ?? "",
     official_url: row.official_url ?? "",
+    spec_source_url: row.spec_source_url ?? "",
+    source_database_url: row.source_database_url ?? "",
     pediatric_study_exists: row.pediatric_study_exists ?? "",
     clinical_study_exists: row.clinical_study_exists ?? "",
     general_hri_study_exists: row.general_hri_study_exists ?? "",
@@ -246,5 +281,96 @@ export async function getValidationSummary(): Promise<ValidationSummary> {
       missingStudyFlags,
       shippingUnknown
     }
+  };
+}
+
+function splitList(raw: string): string[] {
+  return raw
+    .split("|")
+    .map((value) => value.trim())
+    .filter(Boolean);
+}
+
+export async function getNews(): Promise<NewsRecord[]> {
+  const rows = await readCsvAsObjects("06_news.csv");
+  return rows.map((row) => ({
+    news_id: row.news_id ?? "",
+    source_id: row.source_id ?? "",
+    region: row.region ?? "",
+    title: row.title ?? "",
+    author: row.author ?? "",
+    published_at: row.published_at ?? "",
+    source_category: row.source_category ?? "",
+    source_url: row.source_url ?? "",
+    primary_category: row.primary_category ?? "",
+    tags: splitList(row.tags ?? ""),
+    summary_ko: row.summary_ko ?? "",
+    robot_ids: splitList(row.robot_ids ?? ""),
+    manufacturer_ids: splitList(row.manufacturer_ids ?? ""),
+    archive_candidate: row.archive_candidate ?? "",
+    pediatric_relevance: row.pediatric_relevance ?? "",
+    clinical_relevance: row.clinical_relevance ?? "",
+    screening_status: row.screening_status ?? "",
+    relevance_reason: row.relevance_reason ?? ""
+  }));
+}
+
+export async function getIncludedNews(): Promise<NewsRecord[]> {
+  const rows = await getNews();
+  return rows
+    .filter((row) => row.screening_status === "INCLUDE")
+    .sort((a, b) => b.published_at.localeCompare(a.published_at));
+}
+
+export async function getNewsByRobotId(robotId: string): Promise<NewsRecord[]> {
+  const rows = await getIncludedNews();
+  return rows.filter((row) => row.robot_ids.includes(robotId));
+}
+
+export async function getNewsTrendSummary(): Promise<NewsTrendSummary> {
+  const rows = await getIncludedNews();
+  const monthlyCounts: Record<string, number> = {};
+  const categoryCounts: Record<string, number> = {};
+  const tagCounts: Record<string, number> = {};
+  let pediatricRelatedCount = 0;
+  let careRelatedCount = 0;
+  let archiveCandidateCount = 0;
+
+  for (const row of rows) {
+    const month = row.published_at.slice(0, 7);
+    monthlyCounts[month] = (monthlyCounts[month] ?? 0) + 1;
+    categoryCounts[row.primary_category] = (categoryCounts[row.primary_category] ?? 0) + 1;
+
+    if (["HIGH", "MEDIUM", "LOW"].includes(row.pediatric_relevance)) {
+      pediatricRelatedCount += 1;
+    }
+    if (
+      row.primary_category === "의료·돌봄" ||
+      ["HIGH", "MEDIUM", "LOW"].includes(row.clinical_relevance)
+    ) {
+      careRelatedCount += 1;
+    }
+    if (row.archive_candidate === "TRUE") {
+      archiveCandidateCount += 1;
+    }
+
+    for (const tag of row.tags) {
+      tagCounts[tag] = (tagCounts[tag] ?? 0) + 1;
+    }
+  }
+
+  const topTags = Object.entries(tagCounts)
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 6);
+
+  return {
+    includeCount: rows.length,
+    monthlyCounts,
+    categoryCounts,
+    pediatricRelatedCount,
+    careRelatedCount,
+    archiveCandidateCount,
+    topTags
   };
 }

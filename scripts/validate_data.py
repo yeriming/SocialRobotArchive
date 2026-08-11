@@ -169,6 +169,29 @@ EXPECTED_HEADERS = {
         "verification_status",
         "notes",
     ],
+    "06_news.csv": [
+        "news_id",
+        "source_id",
+        "region",
+        "title",
+        "author",
+        "published_at",
+        "source_category",
+        "source_url",
+        "primary_category",
+        "tags",
+        "summary_ko",
+        "robot_ids",
+        "manufacturer_ids",
+        "archive_candidate",
+        "pediatric_relevance",
+        "clinical_relevance",
+        "screening_status",
+        "relevance_reason",
+        "collected_at",
+        "last_verified",
+        "content_hash",
+    ],
 }
 
 
@@ -215,6 +238,16 @@ def add_date_errors(errors: list[ValidationError], filename: str, rows: Iterable
             errors.append(ValidationError(filename, idx, field, f"Invalid date format (YYYY-MM-DD): {value}"))
 
 
+def add_datetime_errors(errors: list[ValidationError], filename: str, rows: Iterable[dict[str, str]], field: str) -> None:
+    pattern = re.compile(r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$")
+    for idx, row in enumerate(rows, start=2):
+        value = row.get(field, "")
+        if value and not pattern.match(value):
+            errors.append(
+                ValidationError(filename, idx, field, f"Invalid datetime format (YYYY-MM-DD HH:MM:SS): {value}")
+            )
+
+
 def add_url_errors(errors: list[ValidationError], filename: str, rows: Iterable[dict[str, str]], fields: list[str]) -> None:
     for idx, row in enumerate(rows, start=2):
         for field in fields:
@@ -244,12 +277,14 @@ def main() -> int:
     prices = load_csv("03_prices.csv")
     studies = load_csv("04_studies.csv")
     sources = load_csv("05_sources.csv")
+    news = load_csv("06_news.csv")
 
     add_unique_id_errors(errors, "01_candidate_robots.csv", candidates, "candidate_id")
     add_unique_id_errors(errors, "02_robots.csv", robots, "robot_id")
     add_unique_id_errors(errors, "03_prices.csv", prices, "price_id")
     add_unique_id_errors(errors, "04_studies.csv", studies, "study_id")
     add_unique_id_errors(errors, "05_sources.csv", sources, "source_id")
+    add_unique_id_errors(errors, "06_news.csv", news, "news_id")
 
     add_enum_errors(errors, "01_candidate_robots.csv", candidates, "screening_status", set(taxonomy["screening_status"]))
     add_enum_errors(errors, "02_robots.csv", robots, "status", set(taxonomy["robot_status"]))
@@ -266,17 +301,35 @@ def main() -> int:
     add_enum_errors(errors, "05_sources.csv", sources, "source_type", set(taxonomy["source_type"]))
     add_enum_errors(errors, "05_sources.csv", sources, "information_type", set(taxonomy["information_type"]))
     add_enum_errors(errors, "05_sources.csv", sources, "verification_status", set(taxonomy["verification_status"]))
+    add_enum_errors(errors, "06_news.csv", news, "source_id", set(taxonomy["news_source_id"]))
+    add_enum_errors(errors, "06_news.csv", news, "region", set(taxonomy["news_region"]))
+    add_enum_errors(
+        errors, "06_news.csv", news, "screening_status", set(taxonomy["news_screening_status"])
+    )
+    add_enum_errors(
+        errors, "06_news.csv", news, "primary_category", set(taxonomy["news_primary_category"])
+    )
+    add_enum_errors(
+        errors, "06_news.csv", news, "pediatric_relevance", set(taxonomy["news_relevance_level"])
+    )
+    add_enum_errors(
+        errors, "06_news.csv", news, "clinical_relevance", set(taxonomy["news_relevance_level"])
+    )
 
     add_date_errors(errors, "01_candidate_robots.csv", candidates, "screened_date")
     add_date_errors(errors, "02_robots.csv", robots, "last_verified")
     add_date_errors(errors, "03_prices.csv", prices, "checked_date")
     add_date_errors(errors, "05_sources.csv", sources, "retrieved_date")
+    add_datetime_errors(errors, "06_news.csv", news, "published_at")
+    add_date_errors(errors, "06_news.csv", news, "collected_at")
+    add_date_errors(errors, "06_news.csv", news, "last_verified")
 
     add_url_errors(errors, "01_candidate_robots.csv", candidates, ["source_url"])
     add_url_errors(errors, "02_robots.csv", robots, ["source_database_url", "official_url", "spec_source_url"])
     add_url_errors(errors, "03_prices.csv", prices, ["source_url"])
     add_url_errors(errors, "04_studies.csv", studies, ["url"])
     add_url_errors(errors, "05_sources.csv", sources, ["source_url"])
+    add_url_errors(errors, "06_news.csv", news, ["source_url"])
 
     robot_ids = {row["robot_id"] for row in robots if row.get("robot_id")}
     for idx, row in enumerate(prices, start=2):
@@ -291,6 +344,44 @@ def main() -> int:
         robot_id = row.get("robot_id", "")
         if robot_id and robot_id not in robot_ids:
             errors.append(ValidationError("05_sources.csv", idx, "robot_id", f"Unknown foreign key: {robot_id}"))
+
+    valid_news_tags = set(taxonomy["news_tags"])
+    for idx, row in enumerate(news, start=2):
+        archive_candidate = row.get("archive_candidate", "")
+        if archive_candidate and archive_candidate not in {"TRUE", "FALSE"}:
+            errors.append(
+                ValidationError(
+                    "06_news.csv",
+                    idx,
+                    "archive_candidate",
+                    f"Invalid value (TRUE/FALSE only): {archive_candidate}",
+                )
+            )
+
+        tags = [tag.strip() for tag in row.get("tags", "").split("|") if tag.strip()]
+        for tag in tags:
+            if tag not in valid_news_tags:
+                errors.append(ValidationError("06_news.csv", idx, "tags", f"Unknown tag: {tag}"))
+
+        linked_robot_ids = [rid.strip() for rid in row.get("robot_ids", "").split("|") if rid.strip()]
+        for linked_robot_id in linked_robot_ids:
+            if linked_robot_id not in robot_ids:
+                errors.append(
+                    ValidationError(
+                        "06_news.csv",
+                        idx,
+                        "robot_ids",
+                        f"Unknown robot_id in robot_ids: {linked_robot_id}",
+                    )
+                )
+
+        if row.get("screening_status") == "INCLUDE":
+            if not row.get("source_url"):
+                errors.append(ValidationError("06_news.csv", idx, "source_url", "INCLUDE row missing source_url"))
+            if not row.get("published_at"):
+                errors.append(ValidationError("06_news.csv", idx, "published_at", "INCLUDE row missing published_at"))
+            if not row.get("summary_ko"):
+                errors.append(ValidationError("06_news.csv", idx, "summary_ko", "INCLUDE row missing summary_ko"))
 
     if errors:
         print("VALIDATION FAILED")

@@ -14,6 +14,7 @@ export default async function AboutPage() {
           <nav className="nav-links">
             <Link href="/robots">로봇 탐색</Link>
             <Link href="/studies">연구 사례</Link>
+            <Link href="/news">최신 동향</Link>
             <Link href="/about">데이터 정보</Link>
           </nav>
         </div>
