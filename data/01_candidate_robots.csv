@@ -1,0 +1,61 @@
+candidate_id,robot_name,model,manufacturer,source_database,source_category,source_url,screening_status,exclusion_reason,duplicate_of,screened_date,notes
+CAND-0001,PARO,,AIST,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0002,Abi,,Andromeda Robotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0003,Next-Generation Companion Robot,,ASUS,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0004,Moflin,,Casio,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0005,LilMilo,,Ecovacs,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0006,EBO X,,Enabot,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0007,EBO Max FamilyBot,,Enabot,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0008,EBO Mini Sport FamilyBot,,Enabot,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0009,Intelligent Soft-Bodied Bionic Arowana,,FullDepth,ui44,Companions,https://ui44.com/categories/companions,EXCLUDE,사회적 상호작용이 핵심 목적이 아님(수중 전시/연구/촬영 중심),,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0010,Gogobot D1,,Gogobot,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0011,LOVOT,,GROOVE X,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0012,Joobie,,Hugbibi,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0013,Pophie,,InsBotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0014,ElliQ 3,,Intuition Robotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0015,Loona,,KEYi Tech,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0016,Loona DeskMate,,KEYi Tech,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0017,Ami,,Lepro,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0018,Cocomo,,Ludens AI,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0019,INU,,Ludens AI,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0020,RUMI,,Luvbotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0021,StackChan,,M5Stack,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0022,MagicDog,,MagicLab,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0023,An'An Panda,,Mind With Heart Robotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0024,Kuri,,Mayfield Robotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0025,Miko 3,,Miko,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0026,Miko Mini,,Miko,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0027,Romi Lacatan,,MIXI,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0028,Misty II,,Misty Robotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0029,Beni,,Mondo Robotics,ui44,Companions,https://ui44.com/categories/companions,EXCLUDE,사회적 상호작용보다 촬영/팔로우 주행이 핵심 기능,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0030,OlloNi,,OLLOBOT,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0031,T2,,PadBot,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0032,Reachy Mini,,Pollen Robotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0033,Prime T1,,PrimeBot,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0034,David,,Realbotix,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0035,KOIBOT ROLA Series,,Reon Robotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0036,Rhem,,Rhem Labs,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0037,Fuzozo,,Robopoet,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0038,Flagship Soundwave Auto-Converting Robot,,Robosen Robotics,ui44,Companions,https://ui44.com/categories/companions,EXCLUDE,단순 장난감/엔터테인먼트 성격으로 HRI 연구 적합성 낮음,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0039,Ballie,,Samsung,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0040,Chess Mini,,SenseRobot,ui44,Companions,https://ui44.com/categories/companions,UNCERTAIN,사회적 상호작용 중심 소셜로봇 여부 추가 검토 필요,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0041,Poketomo,,Sharp,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0042,ROVAR X3,,Sentigent Technology,ui44,Companions,https://ui44.com/categories/companions,UNCERTAIN,야외 동행 로봇으로 소셜 상호작용 핵심성 추가 검토 필요,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0043,aibo (ERS-1000),,Sony,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0044,KATA Friends,,SwitchBot,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0045,Jennie,,Tombot,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0046,Sweekar,,Takway AI,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0047,Aura,,Tuya Smart,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0048,Alpha Mini,,UBTECH,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0049,Kangbao (Health Baby),,University of Electronic Science and Technology of China (UESTC),ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0050,Coglet,,Will Cogley,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0051,Yonbo X1,,X-Origin AI,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0052,Mirumi,,Yukai Engineering,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0053,M1,,Zeroth Robotics,ui44,Companions,https://ui44.com/categories/companions,INCLUDE,,,2026-08-11,Phase 0B 1차 스크리닝
+CAND-0055,Jibo,,,robotsguide,Social,https://robotsguide.com/robots/category/social,INCLUDE,,,2026-08-11,Phase 0B-RG 1차 스크리닝 (robotsguide)
+CAND-0056,Keepon,,,robotsguide,Social,https://robotsguide.com/robots/category/social,INCLUDE,,,2026-08-11,Phase 0B-RG 1차 스크리닝 (robotsguide)
+CAND-0058,Mirokaï,,,robotsguide,Social,https://robotsguide.com/robots/category/social,INCLUDE,,,2026-08-11,Phase 0B-RG 1차 스크리닝 (robotsguide)
+CAND-0059,Nao,,,robotsguide,Social,https://robotsguide.com/robots/category/social,INCLUDE,,,2026-08-11,Phase 0B-RG 1차 스크리닝 (robotsguide)
+CAND-0060,Pepper,,,robotsguide,Social,https://robotsguide.com/robots/category/social,INCLUDE,,,2026-08-11,Phase 0B-RG 1차 스크리닝 (robotsguide)
+CAND-0061,Qoobo,,,robotsguide,Social,https://robotsguide.com/robots/category/social,INCLUDE,,,2026-08-11,Phase 0B-RG 1차 스크리닝 (robotsguide)
+CAND-0062,Vector,,,robotsguide,Social,https://robotsguide.com/robots/category/social,INCLUDE,,,2026-08-11,Phase 0B-RG 1차 스크리닝 (robotsguide)

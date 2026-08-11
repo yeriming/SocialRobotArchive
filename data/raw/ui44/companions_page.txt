@@ -1,0 +1,1371 @@
+Companions Robots — ui44
+
+Category intelligence brief
+
+# Companions robots, scoped for fast market reading.
+
+Social robots, robot pets, and elderly-care companions designed for emotional connection and everyday support at home. This route is designed to move from fast inventory scan to deeper technical and buyer guidance without turning the page into a wall of undifferentiated content.
+
+Browse inventory Open compare Research manufacturers
+
+53
+
+Tracked robots
+
+Current companions coverage in ui44.
+
+27
+
+Market ready
+
+26 still sit in pre-release or inactive states.
+
+48
+
+Manufacturers
+
+Enough supplier breadth to spot concentration quickly.
+
+30/53
+
+Price coverage
+
+Visible range runs $125–$578k.
+
+Market shape
+
+## Where this category concentrates right now.
+
+Enabot 3 robots KEYi Tech 2 robots Ludens AI 2 robots Miko 2 robots
+
+Latest verification
+
+Jul 13, 2026
+
+Recently checked
+
+51 of 53 in the last 120 days
+
+How to use this route
+
+Start with the live inventory to see the shape of the field before reading long-form guidance.
+
+Use the spec and pricing chapters to separate real shortlist candidates from broad category noise.
+
+Jump into compare only after this page gives you a stable set of realistic contenders.
+
+Route map
+
+## Jump straight to the part of the companions brief you need.
+
+Inventory Buyer guide Specs and pricing Manufacturers Operations Outlook FAQ and routes
+
+Inventory
+
+## All Companions robots in one scan-first grid.
+
+This is the fastest way to understand catalog breadth before you read the deeper buyer, technical, and market context chapters below.
+
+## All Companions Robots
+
+Browse the full companions inventory currently tracked in ui44.
+
+27
+
+Currently active
+
+The strongest signal for real-world shortlist work.
+
+30
+
+With visible pricing
+
+Useful when the first pass needs fast budget framing.
+
+48
+
+Supplier count
+
+A quick read on concentration versus competitive spread.
+
+### PARO
+
+PARO is AIST's therapeutic baby harp-seal robot designed for dementia care and other clinical/social-care settings where live animals are difficult to use. The platform has been iterated over multiple generations and is used in hospitals and elder-care facilities globally. PARO focuses on calming interaction via touch, sound, posture, and light sensing, and responds with movement, vocalization, and learned behavior.
+
+Companions
+
+Price TBA Active
+
+### Abi
+
+Abi is a social companion humanoid robot designed specifically for aged care and assisted living environments. Created by Melbourne-based Andromeda Robotics (founded 2022 by Grace Brown and Yan Chen), Abi is deliberately styled as a bright, toy-like figure — about 110 cm tall with a colorful soft-edged body, expressive digital face, and gesture-capable arms — to avoid the uncanny valley and feel approachable to elderly residents. It uses generative AI and emotion recognition to hold personalized conversations in over 90 languages, remember past interactions, and adapt its responses to each individual's mood and cognitive ability. Beyond 1:1 companionship, Abi leads group activities including singing, dancing, games, and storytelling. Deployed across 15 care homes in Melbourne, Australia, with a US waitlist opened in early 2026 following a $23M Series A funding round led by Forerunner.
+
+~110 cm
+
+Price TBA Available
+
+### Next-Generation Companion Robot
+
+ASUS's Next-Generation Companion Robot is an in-home AI companion unveiled at Computex 2026 as part of the company's Care and Service robotics showcase. ASUS positions it for seniors and other users who need conversational, personalized support rather than a chore robot. Powered through ASUS Maestro AI, the robot is intended to translate user intent into tasks such as drafting messages in supported apps like LINE, initiating video check-ins, organizing photos or schedules, and continuing interactions through a messaging app when the user is away from home. ASUS also says the system can remember authorized personal context, including life events and relationships, so it can adapt over time. Hardware specifications, price, and a consumer launch date have not yet been disclosed.
+
+Companions
+
+Price TBA Prototype
+
+### Moflin
+
+Casio's Moflin is a palm-sized AI companion pet designed for emotional comfort rather than household chores. Official Casio materials say it recognizes voices, responds to touch, and develops one of more than 4 million possible emotional profiles over time, while independent hands-on coverage corroborates its plush guinea-pig-like form, warm body, charging-bed dock, and app-linked mood tracking. The result is a small non-mobile companion robot aimed at stress relief, low-pressure companionship, and pet-like interaction without allergy or care burdens.
+
+up to 5 h~260 g
+
+$429 Available
+
+### LilMilo
+
+LilMilo is Ecovacs' first emotional AI companion robot: a plush robotic pet designed for lifelike home companionship rather than cleaning. The official product page and launch release describe an evolving personality, seven emotion types across 21 emotional states, a wide-angle camera nose for face/gesture/emotional-cue recognition, bionic eyes, a 3-DOF neck, three-microphone voice interaction with sound-source localization, touch sensors under warm bionic fur, and a built-in large language model with long-term memory. It can run fully offline for everyday commands and companionship, with up to 360 minutes of use and 30-minute fast charging to 50%.
+
+up to 360 min
+
+$799 Available
+
+### EBO X
+
+Enabot's EBO X is an AI family companion robot for home monitoring and communication. Enabot markets it with GPT-4o mini voice interaction, Visual SLAM navigation, a 4K stabilized camera with night vision, and Alexa-based assistant features for household use.
+
+2–3 h1700 g
+
+$999 Available
+
+### EBO Max FamilyBot
+
+The Enabot EBO Max FamilyBot is a next-generation AI-powered home companion robot that builds on the EBO X with a fundamentally upgraded AI architecture. Unlike its predecessor's GPT-4o mini integration, EBO Max uses multimodal AI with long-term memory and contextual understanding to recognize family members, learn household routines, and adapt its behavior over time. It combines a 4K camera with V-SLAM autonomous navigation, multi-point spatial memory for scheduled patrols, and multi-model AI perception for person and pet detection. The robot handles two-way video calls, fall-detection alerts, pet monitoring, condition-based task execution, and personalized reminders — all while autonomously mapping, navigating, and recharging. At roughly half the price of the EBO X, it brings intelligent mobile home companionship to a broader audience.
+
+750 g
+
+$600 Available
+
+### EBO Mini Sport FamilyBot
+
+The Enabot EBO Mini Sport FamilyBot is a compact mobile presence robot for family check-ins, pet interaction, and home awareness. It pairs a 2K camera, two-way audio, app-controlled whole-home driving, night vision, motion alerts, 24/7 recording, and auto recharge with Sport-specific upgrades including a quieter brushless motor, expressive eye lighting, and AI human/pet recognition for event filtering. Enabot positions it as a small companion and mobile camera rather than a chore robot, but its moving low-angle viewpoint, remote laser/feather pet play, self-righting body, and person/pet-aware monitoring make it meaningfully more capable than a fixed indoor camera.
+
+700 g
+
+£160 Pre-order
+
+### Intelligent Soft-Bodied Bionic Arowana
+
+FullDepth's Intelligent Soft-Bodied Bionic Arowana, also described by the company as "Jinlin," is a lifelike robotic aquarium fish for home display, exhibitions, research, underwater photography, and inspection scenarios. The official FullDepth article describes a one-piece molded silicone soft body, bionic biological propulsion, automatic swimming, wireless remote control, and coordinated multi-fish operation. Official specifications list a 700 mm length, 200 mm height including fins, 3.8 kg weight, 20 m depth rating, 1-knot top speed, at least 12 hours of battery life, and charging in under 2.5 hours. FullDepth says the control system uses fish neuro-drive models and AI algorithms to simulate natural arowana swimming behavior.
+
+3.8 kg200 mm
+
+Price TBA Available
+
+### Gogobot D1
+
+Gogobot D1 is a compact AI companion robot dog from Gogobot, a Changba-backed consumer robotics brand. The official store positions D1 as a pre-order social robot for families and kids, with voice, app, and remote control, a 2.4-inch screen face, movable ears and tail, touch reactions, obstacle avoidance, and fall recovery. Official specs list a 255 × 137 × 188 mm body, 800 g weight, dual ToF sensors, a 6-axis IMU, two capacitive touch sensors, four microphones, Wi-Fi, BLE 6.0, and a 7.4 V 2600 mAh battery rated for about 70-90 minutes of continuous movement or up to 3 hours of typical interaction. Independent launch coverage corroborates the AI robot-dog identity and conversational-companion positioning, but Gogobot has not publicly disclosed the underlying language-model provider or long-term retail pricing beyond the current pre-order offer.
+
+800 g188 mm
+
+$379 Pre-order
+
+### LOVOT
+
+A companion robot from Japanese startup GROOVE X, designed purely to be loved. LOVOT doesn't clean or cook — it exists to make you feel happy. It uses over 50 sensors, deep learning, and a warm body temperature to create lifelike behavior. It recognizes its owner, reacts to touch all over its body, and develops a unique personality over time. The sensor horn on its head houses a 360° camera, thermal camera, and microphone array for room mapping and person detection.
+
+30–45 min4.6 kg
+
+¥577,500 Available
+
+### Joobie
+
+Joobie is Hugbibi's pocket-sized AI pet companion, positioned as a bag-friendly outdoor pal rather than a chore robot. Official Hugbibi pages list a 0.25 kg weight and describe a small companion that reacts to head and belly touch, playful pokes, ambient sounds, music, voice commands, walking, being picked up or lifted, and sudden jolts or falls. Hugbibi also describes an app that shows Joobie's mood and state, lets owners record memories and outfits, and uses an "MBTI for Pets" personality system so each unit develops different reactions over time. PledgeBox's public Kickstarter tracker corroborates the campaign identity and successful April-May 2026 funding, while Hugbibi has not yet published detailed battery, compute, dimensions, or retail-pricing specs.
+
+0.25 kg
+
+Price TBA Pre-order
+
+### Pophie
+
+Pophie is InsBotics' desk-sized AI companion robot, publicly shown at CES 2026 and now marketed as the company's first home-focused 'AI Lifeform' ahead of a planned crowdfunding launch. Official materials describe a plush companion that combines rotating vision, microphones, touch and posture sensing, long-term memory, and proactive interaction so it can greet users, track gaze, respond to gestures, and handle multi-person conversations without relying on a wake word. Rather than acting like a mobile chore robot, Pophie is positioned as an emotionally expressive desk or room companion with five degrees of expressive motion, physical camera privacy behavior when its eyes close, and a split edge-plus-cloud AI stack for real-time reactions plus deeper reasoning.
+
+Companions
+
+$249 Pre-order
+
+### ElliQ 3
+
+Intuition Robotics' AI-powered companion robot designed for older adults. ElliQ 3 is the third generation, launched January 2024 with new hardware and generative AI capabilities. Proven to reduce loneliness in 80% of users. Over 800 units deployed through NYSOFA (New York State Office for the Aging) alone. Features proactive conversation, medication reminders, wellness programs, video calling, and virtual activities. Available in English within the United States; official FAQ says ElliQ ships and provides support exclusively within the United States. Designed by Yves Béhar's Fuseproject. Winner of CES 2018 Best of Innovation and iF Design Award 2025.
+
+5.3 lb14.4 in
+
+Price TBA Available
+
+### Loona
+
+An AI-powered companion petbot from KEYi Tech. Loona is a small, expressive wheeled robot with a 2.4-inch LCD face that displays emotions. It uses a 720p camera, 3D time-of-flight sensor, and a 4-microphone array to recognize faces, respond to voice commands, and navigate around your home. KEYi's current page describes GPT-powered conversations while the published hardware section lists a 5 TOPS processor, Cortex-M4 co-processor, dual-core DSP audio engine, 2 GB LPDDR4 RAM, and 8 GB eMMC 5.0 storage. Aimed at families and kids, it offers interactive games (bullfighting, follow-the-leader, AR pet feeding), Google Blockly programming, and remote monitoring via the KEYi app. Auto-docks to recharge when battery is low. Won CES Innovation Award 2024 and iF Design Award 2024.
+
+1.1 kg17.3 cm
+
+$442 Available
+
+### Loona DeskMate
+
+Loona DeskMate is KEYi Tech's desktop AI companion for work, introduced at CES 2026 as a separate product from the wheeled Loona pet robot. It turns a docked iPhone into an embodied desk-side assistant, using the phone as the display, camera, microphones, and compute while the base provides a motorized three-degree-of-freedom head and a 165 W GaN charging hub. Official KEYi materials describe audio-visual multimodal perception, no-wake-word intent detection, attention and emotion awareness, real-time clipboard and screen context, and productivity integrations for email, calendar, Slack, Zoom, Calendly, SendGrid, and Yelp-style booking workflows. Independent launch coverage corroborates iPhone 12+/iOS 16+ requirements, Mac/Windows workflow sync, three USB-C plus one USB-A ports, Kickstarter crowdfunding, and planned late-May 2026 shipping.
+
+Companions
+
+$219 Pre-order
+
+### Ami
+
+Lepro Ami is a desktop AI companion that Lepro unveiled at CES 2026 and plans to launch in July 2026. Official materials position it as an always-on visual presence rather than a voice speaker or chat app, combining a custom curved OLED display, real-time eye tracking, a rear camera for AR environmental overlay, multimodal emotion and context sensing, and visible hardware privacy shutters. Independent CES coverage corroborates that Ami is a physical tabletop device designed to create a 3D 'in-the-room' presence for companionship, ambient interaction, and smart-home control rather than simple command-response assistance.
+
+Companions
+
+Price TBA Development
+
+### Cocomo
+
+Cocomo is an AI companion robot from Japanese startup Ludens AI, unveiled at CES 2026. Designed for emotional presence rather than productivity, it follows its owner around the home on a wheeled base and responds to voice and touch. Its warm exterior maintains near-human body temperature (~37 °C / 98.6 °F), rising during close contact such as hugs. Cocomo communicates through hums and non-verbal sounds rather than speech, and features an evolving personality with long-term memory that learns behaviors and preferences over time. The current official Cocomo page lists 8 DOF expressive motion across the head, arms, and body, plus auto-return dock charging with infrared homing. A crowdfunding campaign is planned but no pricing or shipping date has been announced.
+
+Companions
+
+Price TBA Prototype
+
+### INU
+
+INU is a compact desktop companion robot from Ludens AI, shown around CES 2026 as a smaller workspace companion alongside Cocomo. Ludens AI describes INU as a Desktop Alien Dog built to bring curiosity and wonder to a desk, using dual expressive displays, multi-sensor awareness, USB-C fast charging, and expressive 4-DOF head/body/tail motion. It is designed for emotional presence rather than household chores, reacting to a user's presence, voice, and touch with playful, spontaneous behaviors. Public pricing, exact dimensions, and a shipping date have not been announced.
+
+up to 4 h
+
+Price TBA Prototype
+
+### RUMI
+
+RUMI is a small bipedal companion robot from Beijing Luvbotics, also known as Yueban Power, released as the company's L0-series home companion. It is designed for emotional presence rather than household chores, combining a skin-like silicone exterior, expressive animated eyes, tactile sensing, a 360-degree microphone array, five camera groups, and behavior generation shaped by touch, voice tone, emotion, and personality state. Official materials list indoor autonomous movement, outdoor following, automatic return-to-charge, OTA support, a 65 cm standing height, 12 kg weight, 21 degrees of freedom, and 3 hours of battery life; launch coverage also emphasizes long-term memory and personality evolution as core parts of the companion experience.
+
+3 h12 kg
+
+Price TBA Pre-order
+
+### StackChan
+
+M5Stack's StackChan is a palm-sized open-source AI desktop robot co-created with the maker community around the CoreS3 ESP32-S3 controller. Official M5Stack materials describe a ready-to-play companion and development platform with an animated face, AI voice interaction, app-based video viewing and remote avatar control, smart-home/IoT control use cases, two feedback servos for expressive pan-and-tilt motion, NFC, touch, camera, microphones, IMU, RGB LEDs, and Grove expansion. The official documentation and product page list the K151/K151-R hardware as a shippable M5Stack kit, while independent CNX Software coverage corroborates the Kickstarter launch, open-source positioning, AI voice-assistant angle, smart-home/IoT use case, and April 2026 delivery target. It is best understood as a hackable desktop companion and maker robot, not a mobile household chore robot.
+
+187.0 g61.5 mm
+
+$125 Available
+
+### MagicDog
+
+MagicDog is MagicLab's quadruped companion robot dog, presented during the company's CES 2026 debut and described by MagicLab as a robot dog that can autonomously express emotions. The official product page lists PRO and EDU variants with MagicLab's emotional interaction system, SAGE AI algorithm, voice/vision/touch interaction, target following, obstacle navigation, graphical programming, 13 degrees of freedom, and a 4K head camera for photo and video capture. CES directory materials also listed MagicDog in MagicLab's CES robotics demonstrations, including a MagicDog group-dance performance alongside the company's Z1 and Gen1 robots.
+
+1.5–3 h15.8 kg
+
+Price TBA Active
+
+Mind With Heart Robotics
+
+### An'An Panda
+
+A biomimetic panda-cub companion robot designed for emotional support and therapeutic interaction. An'An is handcrafted with Australian wool and sheepskin and features a full-body tactile sensing system with over ten sensor suites that recognize strokes, squeezes, and hugs. Its affective AI learns voice patterns, touch signals, and interaction habits through long-term memory, gradually personalizing responses over weeks and months. A CES 2026 Innovation Awards Honoree in the AI category, An'An targets loneliness relief, elderly care, and pediatric therapy at a fraction of the cost of traditional therapeutic robots. A B2B clinical version captures interaction data (touch patterns, conversation cues, behavioral changes) and delivers trends to authorized clinicians via secure dashboards. Preliminary studies with Hong Kong's Jockey Club Centre for Positive Ageing showed measurable mood improvement in older adults with mild cognitive impairment or dementia.
+
+4–5 h
+
+Price TBA Available
+
+### Kuri
+
+Kuri was a home companion robot from Mayfield Robotics (a Bosch-backed startup). It was designed for autonomous home mobility, voice-triggered interaction, and lightweight social presence using expressive sounds rather than spoken dialogue.
+
+6 kg50 cm
+
+$699 Discontinued
+
+### Miko 3
+
+An AI-powered companion robot designed for kids aged 5–10. Miko 3 combines a 4.46-inch IPS touchscreen face with a wheeled body, using deep learning to hold conversations, play educational games, tell stories, and respond to touch and voice. It features face and voice recognition, autonomous navigation via time-of-flight and odometric sensors, and a parental control app for monitoring usage. The robot is COPPA-compliant and kidSAFE+ certified, with no identifiable voice recordings stored. Content includes STEM learning apps, Disney and Paramount stories, coding games, and music — with the full library unlocked via the Max subscription.
+
+0.9 kg22 cm
+
+€269 Available
+
+### Miko Mini
+
+Miko Mini is a compact AI companion robot for children ages 5–10. It combines an IPS display, microphone array, wide-angle HD camera, time-of-flight range sensing, and odometric sensors to support conversational learning and navigation in home environments. Miko positions it as a kid-safe, COPPA-compliant platform with moderated, age-appropriate AI conversations and parent controls.
+
+165 mm
+
+€169 Available
+
+### Romi Lacatan
+
+Romi Lacatan is MIXI's newer Japan-market conversational AI companion robot. Official Romi pages describe it as a small tabletop communication robot with AI-generated speech, ChatRomi 1.0 and ChatRomi 2.0 conversation modes, web search, optional visual understanding, long-term memory controls, app-generated diary summaries, face and voice recognition for family members, touch response, expressive eyes, and more than 100 support and entertainment functions. MIXI's July 2025 retail-sale notice says the Lacatan model moved from reservation sales to general sales in Japan on July 25, 2025, and the official store currently lists purchasable color variants. The core trade-off is that Romi is a conversation-first companion, not a mobile chore robot, and normal use depends on Wi-Fi, the Romi app, and an ongoing cloud service plan.
+
+~400 g
+
+¥98,780 Available
+
+### Misty II
+
+Misty II is a programmable personal robot platform aimed at developers, students, and researchers. It combines autonomous mobility, expressive social interaction, and an open API stack for rapid prototyping of human-robot interaction applications.
+
+2.7 kg35.5 cm
+
+€17,179 Available
+
+### Beni
+
+Beni is Mondo Robotics' all-terrain camera robot and mobile sidekick, built around autonomous follow filming rather than conventional home chores. The official product page positions it for pet owners, skaters, athletes, and families, with onboard tracking that keeps the subject framed from behind, side, or orbit angles; automatic highlight editing; manual driving through a motion controller; Explore Mode live point-of-view control; and lightweight game modes. Mondo lists a 4K camera, 17.9 mph top speed, obstacle jumps up to 10 inches, quick-swap indoor/outdoor wheels, a 3.86 lb body, 8.5 × 7.1 × 7.1 in dimensions, Wi-Fi 6, Bluetooth 5.4, internal plus microSD storage, and a swappable battery rated for about 1.5 hours of continuous use. The official site and reservation page say Beni is launching soon on Kickstarter; PledgeBox's campaign tracker independently lists the same Beni all-terrain camera robot project and core feature claims, but full delivery schedule, autonomy stack, water resistance rating, and retail terms remain undisclosed.
+
+~1.5 h3.86 lb
+
+$499 Pre-order
+
+### OlloNi
+
+OLLOBOT's OlloNi is a cyber-pet companion robot that deliberately avoids mimicking biological forms, instead introducing a novel rounded body with a stretchable neck, expressive 8-inch screen eyes, and a glowing heart-shaped memory core. Designed to live in the home like a pet — nearby, responsive, and emotionally present — it uses cameras and facial recognition to sense emotions, captures photos and videos, and builds a growing memory of family routines and interactions. OlloNi features six emotional engines that develop its personality over time, responding with pixel-based expressions rather than speech. The company intentionally limits its intelligence to pet-level rather than smart-assistant-level, following the philosophy that companionship comes from emotional balance. Two variants are offered: the L1 with a 5-axis telescoping neck (up to 120 cm tall, 19 kg) and the more compact S1 with a 2-axis neck (65 cm tall, 17 kg). Both include autonomous docking, navigation, fall detection, and touch sensors. Unveiled at CES 2026 in Las Vegas.
+
+up to 4 h650–1200 mm
+
+$198 Development
+
+### T2
+
+PadBot T2 is a wheeled desktop companion robot for children's learning and family communication. Official PadBot materials describe ChatGPT-based multilingual dialogue, storytelling, games, voice interaction, parental controls, activity monitoring, and mobile-app video calls, while the detailed product page lists a 5-inch screen, Wi-Fi, a 5000 mAh battery, 5-hour charging, 6-hour working time, and auto-charge support. It is closer to a kid-focused AI companion than a general home assistant, but its voice-controlled movement, face tracking, expressive head motion, and app-connected video calling make it a noteworthy smart robot entry rather than a static educational toy.
+
+up to 6 h1.68 kg
+
+Price TBA Active
+
+### Reachy Mini
+
+Reachy Mini is an open-source desktop robot from Pollen Robotics and Hugging Face focused on human-robot interaction, creative coding, and AI experimentation. It ships as a DIY kit and comes in two variants: a Lite version that runs from a connected computer and a wireless version with onboard Raspberry Pi Compute Module 4, Wi-Fi, USB, battery, and accelerometer. The platform emphasizes accessibility for developers, educators, and hobbyists, with Python programmability, Hugging Face app integration, and expressive head/body motion for conversational and multimodal projects.
+
+28 cm
+
+$299 Available
+
+### Prime T1
+
+Prime T1 is PrimeBot's consumer-focused personal robot, unveiled at CES 2026 as part of the Prime series. Official launch materials describe it as a transformable robot that shifts between a wheeled humanoid mode for indoor movement and a bionic quadruped mode for stairs, slopes, and other uneven terrain. PrimeBot positions the T1 around everyday household use with cinematic motion control, intelligent visual tracking, multimodal interaction, contextual awareness, and long-term memory. Independent CES coverage also described follow-shot filming, remote control, and family-oriented companion roles such as tutoring and light home monitoring.
+
+Companions
+
+Price TBA Prototype
+
+### David
+
+David is Realbotix's modular humanoid companion robot, unveiled at CES 2026 as the company's first male-character configuration. Built on Realbotix's modular robot platform, David features a magnetically swappable face for quick expression changes, 14+ actuated facial points for lifelike expressions, and a patented eye-tracking AI-vision system for face recognition and real-time emotion interpretation. Realbotix says its embedded/proprietary AI can run on-device for demos such as the CES 2026 Aria-David conversation, while third-party integrations support local AI applications and cloud providers such as ChatGPT/OpenAI and DeepSeek, with Llama, Gemini, and Claude rollouts planned. At CES 2026, David and the flagship Aria made headlines with a two-hour fully unscripted, autonomous conversation in multiple languages — a first for publicly demonstrated humanoid robots. Designed for companionship, hospitality greeting, training, and customer engagement, David can be customized with interchangeable body panels, voices, and personality profiles. Realbotix announced planned delivery of 19 robots and corresponding AI implementations for March, April, and May 2026. Manufactured in the United States.
+
+Companions
+
+$95,000 Available
+
+Reon RoboticsKOIBOT ROLA SeriesCategoryCompanionsSince2026
+
+### KOIBOT ROLA Series
+
+KOIBOT ROLA Series is Reon Robotics' family of lifelike AI companion robots, with ROLA One as an upper-body indoor presence and ROLA Unity as a larger full-body presence for lounges, showrooms, studios, private collections, and brand experience spaces. The platform centers on the Amoria emotional AI system for voice interaction, contextual responses, and memory-oriented conversation, paired with a KOIBOT Smart Head, app-connected setup, Wi-Fi/Bluetooth connectivity, integrated touchscreen interaction, rechargeable lithium-ion power, and hand-finished premium silicone surfaces. The official KOIBOT pages route buyers to a live Kickstarter campaign, with production and quality testing estimated for autumn 2026 and delivery in winter 2026.
+
+Companions
+
+Price TBA Pre-order
+
+### Rhem
+
+Rhem is a tabletop AI wellness companion robot for home and elder-care check-ins. Rhem Labs positions it around daily vital-sign tracking, radar-based fall detection, indoor-air alerts, medication and appointment reminders, voice conversation, and a family app for alerts and shared history. Official pages describe cuffless sensors for blood pressure, ECG, temperature and blood oxygen, plus air-quality and gas sensors, while onboard AI handles reminders and explains readings in plain language. Rhem is designed for wellness awareness and family safety alerts, not medical diagnosis or direct emergency dispatch.
+
+Companions
+
+$599 Pre-order
+
+### Fuzozo
+
+Fuzozo is Robopoet's fuzzy AI emotional companion, positioned as a personality-driven companion toy rather than a household chore robot. Robopoet's official site describes dual-mode conversation in a custom 'Fuzzy Language' and human speech, expressive feedback, MBTI/Five Elements personality growth, digital styling, Bump to Connect social features, a MEM multimodal emotion model for audio/text/image inputs, an EchoChain memory system, and a GrowMe personality system that changes through interaction. Tuya Smart announced a cellular-enabled Fuzozo with Robopoet for CES 2026, framing it as an always-connected companion that can work beyond a home Wi-Fi setting. Independent CES 2026 coverage from Mashable and The Verge corroborates the AI companion/pet positioning, owner recognition, touch or petting response, purring, and cellular-connectivity angle. Public price, dimensions, battery life, and final retail timing have not been officially disclosed.
+
+Companions
+
+Price TBA Development
+
+### Flagship Soundwave Auto-Converting Robot
+
+Robosen's Flagship Soundwave is an officially licensed Transformers G1 entertainment robot that auto-converts between cassette-player mode and a walking robot form. Official Robosen materials describe a dual cassette-player/Bluetooth-speaker identity, bipedal walking with articulating hips, app-triggered actions, five programming modes, Mini Theater synchronized scenes with Megatron, custom action sharing through Robosen Studio and Robosen Hub, 48 voice commands after the “Hey, Soundwave” wake phrase, and 200+ Frank Welker voice lines. Hasbro Pulse publishes official robot-mode and cassette-player-mode dimensions, while Robosen lists a 6-axis IMU and 28 high-precision intelligent servos; battery life and the full sensor suite remain undisclosed.
+
+14.33 in
+
+$1,399 Pre-order
+
+### Ballie
+
+Samsung's AI home companion robot, first introduced at CES 2020 and significantly revamped at CES 2024. Ballie is a spherical rolling robot that autonomously navigates the home, managing smart appliances via SmartThings, projecting content on walls and floors, answering calls, and sending video updates of pets or family when you're away. It learns from users' patterns and habits to provide personalized services. Powered by Google's Gemini multimodal AI alongside proprietary Samsung language models, Ballie processes audio, voice, visual data from its camera, and environmental sensor data to adapt in real time. Samsung originally announced Ballie for Summer 2025, but it has been repeatedly delayed. As of early 2026, no release date or pricing has been confirmed.
+
+Companions
+
+Price TBA Development
+
+### Chess Mini
+
+Chess Mini is a compact AI robotic chess mentor from SenseRobot that brings real-piece play, coaching, and online match support to a portable home board. SenseRobot announced the global launch alongside a Kickstarter campaign in April 2026, positioning it as a smaller, more accessible companion to its earlier home chess robots. Launch materials describe machine-vision piece recognition, robotic movement on a physical board, 19 difficulty levels, conversational coaching, Lichess and Chess.com support, and STEAM-style command-card activities for kids.
+
+Companions
+
+$328 Pre-order
+
+### Poketomo
+
+Poketomo is Sharp's pocket-sized companion robot, developed by the team behind RoBoHoN and launched in Japan in November 2025. The palm-sized meerkat-inspired robot uses Sharp's CE-LLM conversational AI to chat naturally, remember prior conversations and outings, recognize scenes with its camera, and express reactions through lights, voice, and four servo-driven head and arm gestures. A linked smartphone app shares memory with the robot and adds diary-style summaries, while built-in weather, news, and alarm features make it more than a novelty desk toy.
+
+194 g11.7 cm
+
+¥39,600 Available
+
+### ROVAR X3
+
+ROVAR X3 is Sentigent Technology's outdoor companion robot, presented on the company's official site as the world's first Outdoor DuoRover companion robot. Sentigent says it is designed for real-world outdoor use with multimodal adaptive following, active perception, social navigation, and adaptive motion control, with official use cases including daily walks, home yard and park activities, camping, and road trips. The robot was publicly shown at CES 2026, and Sentigent's own copy frames it as an early product moving from concept toward reality rather than a broadly available retail device.
+
+6 h45.7 cm
+
+Price TBA Prototype
+
+### aibo (ERS-1000)
+
+Sony's AI-powered robotic companion dog, the latest generation of the iconic AIBO line first launched in 1999. The ERS-1000 features OLED eyes, 22 axes of movement, and deep learning AI that develops a unique personality over time based on interactions with its owner. aibo recognizes faces, responds to over 100 voice commands, learns tricks, and navigates autonomously back to its charging station. With cameras, ToF sensors, and LTE connectivity, aibo forms emotional bonds and grows more expressive the more you interact with it. Over 27,000 units of previous generations were manufactured; the ERS-1000 launched in Japan in January 2018 and in the US later that year.
+
+~2 h2.2 kg
+
+$3,200 Available
+
+### KATA Friends
+
+SwitchBot KATA Friends is an AI pet companion line with two character variants, Noa and Niko. Official SwitchBot launch materials and product data describe soft-bodied home companions that move independently, avoid obstacles, self-dock, respond to voice commands, gestures, touch, and emotion cues, and use an on-device LLM for local interaction. The robots can recognize household members, build interaction memories, keep a diary, and capture photos from their own perspective, positioning KATA Friends as a companion robot rather than a chore robot. As of May 2026, SwitchBot's US product JSON lists both Noa and Niko as available at about $699, with ongoing Companion Care plans required after the included/free period unless the one-time lifetime software option is selected.
+
+Companions
+
+$699 Available
+
+### Jennie
+
+Jennie is Tombot's lifelike robotic Labrador Retriever puppy for emotional-support companionship in homes, hospitals, assisted living, and memory-care settings. Tombot's current pages say the first litter is sold out and new buyers can join a waitlist; CES 2026 materials describe final production cosmetics, an 8-10 week-old puppy mimic, Jim Henson's Creature Shop design work, and more than 18,000 pre-order and waitlist customers. Official feature pages list body-wide touch response, voice-command reactions, recorded puppy sounds, all-day rechargeable use, smartphone-app customization and interaction tracking, and upgradable behavior software. Pricing, dimensions, weight, certifications, and exact wireless or compute specs have not been officially disclosed.
+
+Companions
+
+Price TBA Pre-order
+
+### Sweekar
+
+Sweekar is a palm-sized AI companion pet unveiled at CES 2026 by Shenzhen-based startup Takway AI. Billed as the world's first emotionally intelligent, physically growing AI pet, it combines a Tamagotchi-style nurturing loop with real robotic hardware. Sweekar evolves through four life stages — Egg, Baby, Teen, and Adult — driven by an XP-based care system where feeding, cleaning, and talking earn experience. The device simulates body warmth and gentle breathing rhythms for a lifelike feel, and its AI personality develops uniquely per user via MBTI-based behavioral modeling, Gemini Flash, and ChatGPT-class language models. At adulthood (Level 51+), Sweekar becomes self-sufficient, continuing to explore and learn autonomously while the user is away. At just 89 g, it is designed for everyday pocket portability with offline basic-care support.
+
+89 g
+
+Price TBA Development
+
+### Aura
+
+Aura is Tuya Smart's AI-powered pet companion robot, unveiled at CES 2026 as the company's first dedicated home robot for cats and dogs. Official materials position it as a mobile pet-care companion rather than just a feeder or camera, combining emotion analysis, interactive play, treat dispensing, pet-focused voice interaction, and autonomous home roaming. Tuya says Aura can interpret pet mood from behavior and sound cues, generate photo and video highlights, and return to a combined feeding-and-charging dock automatically. As of mid-April 2026, Tuya has not announced pricing or a consumer ship date.
+
+Companions
+
+Price TBA Development
+
+### Alpha Mini
+
+A compact humanoid companion/education robot from UBTECH with voice interaction, face and object recognition, and app-based graphical coding. Alpha Mini is designed for home and classroom interaction scenarios.
+
+700 g24.5 cm
+
+Price TBA Available
+
+University of Electronic Science and Technology of China (UESTC)
+
+### Kangbao (Health Baby)
+
+Kangbao (Health Baby) is a 1.2 m companion healthcare robot developed by a research team at the University of Electronic Science and Technology of China for elderly-care pilots in Chengdu. UESTC and Xinhua describe it as a non-contact health-check robot that can measure heart rate, blood pressure, and body temperature in about 30 seconds while also recognizing 13 emotional states. The team says Kangbao processes data locally with on-device inference, maintains electronic health and medication records, and can issue proactive alerts for potential health risks in care-center deployments.
+
+1.2 m
+
+Price TBA Prototype
+
+### Coglet
+
+Coglet is Will Cogley's open-source, 3D-printable desktop companion robot kit for makers. Instead of a mobile chore robot, it is a stationary expressive character robot with nine degrees of animated motion across the eyes, ears, mouth, eyelids, neck, and base yaw. The project combines a custom CogNog controller, Raspberry Pi RP2040 servo control, ESP32-S3 Wi-Fi/Bluetooth communication, audio I/O, and twin eye cameras so builders can program local reactions, face/person/object detection, and online or offline companion behaviors in Python. The Kickstarter campaign was funded in April 2026, with kit rewards planned for August-September fulfillment while the creator continues mechanical and robustness improvements.
+
+22 cm
+
+£250 Pre-order
+
+### Yonbo X1
+
+Yonbo X1 is a wheeled AI companion robot from X-Origin AI aimed at families with children. The robot combines a 5 MP camera, four-microphone array, expressive vertical display, dual-band Wi-Fi, and Bluetooth with multimodal conversational AI, long-term memory, and emotion-aware interactions. Official materials position it as a screen-light companion for storytelling, homework help, games, reminders, and parent-facing emotional wellness insights, while the current product page lists the robot as in stock with no required subscription.
+
+3.5 h3.2 kg
+
+$799 Available
+
+### Mirumi
+
+Mirumi is a tiny clip-on companion robot from Yukai Engineering designed to create brief, playful moments of eye contact and curiosity in public or at home. Instead of navigating or speaking, it hangs from a bag strap or handle and reacts with shy glances, head turns, spontaneous motions, and touch-triggered responses. Official materials describe an onboard behavior algorithm fed by touch and sound sensing, while launch coverage and retail details confirm an approximately 155 g body, about 8 hours of battery life, and USB-C charging. Japan sales began in April 2026, and the official Japan store currently lists color pre-orders for late-July 2026 delivery.
+
+~8 h155 g
+
+¥19,800 Available
+
+### M1
+
+Zeroth Robotics M1 is a compact home companion robot that Zeroth introduced with its US launch at CES 2026 and now promotes through a dedicated product page plus a reservation flow. Official materials position M1 as an 'embodied intelligence' robot for home companionship, gentle fall detection, mobile safety checks, daily assistance, kid-focused interactive learning, pet behavior monitoring, and remote family interaction. The robot combines a 20-DoF body with both bipedal and wheeled mobility, whole-home LiDAR mapping, iTOF depth sensing, vision-based recognition and obstacle avoidance, multilingual conversation, and an open platform for programming, VR, and reinforcement-learning experimentation.
+
+~2 h494 mm
+
+$2,499 Available
+
+Buyer guide
+
+## Companions buyer brief and category fit guidance.
+
+Use this chapter to orient the page, calibrate expectations, and pressure-test whether the category really matches the workload you have in mind.
+
+## What Are Companions Robots?
+
+Companion robots are designed primarily for social interaction, emotional support, and daily living assistance. Unlike task-oriented robots that vacuum floors or mow lawns, companions aim to form a relationship with their users through conversation, personality, and responsive behavior.
+
+This category spans from robot pets (like Sony's aibo) that provide the joy of animal companionship without the responsibilities, to eldercare companions that help seniors stay connected, manage medications, and provide cognitive stimulation. Social robots like Moxie target children's emotional development, while platforms like ElliQ focus on reducing loneliness in aging populations.
+
+The companion robot market is growing as society grapples with an aging population, rising loneliness, and the therapeutic potential of consistent, patient, always-available social interaction.
+
+#### Top Manufacturers
+
+## Companions Robot Buyer's Guide
+
+Companion robots are deeply personal purchases — the right choice depends on who the robot is for and what kind of interaction they need. For elderly users, look for simplified interfaces, proactive engagement (the robot initiates conversation), medication and appointment reminders, and video calling capabilities.
+
+#### Key Questions to Ask
+
+- For elderly users, look for simplified interfaces, proactive engagement (the robot initiates conversation), medication and appointment reminders, and…
+- For children, prioritize age-appropriate content, educational value, and parental controls
+- For pet-like companions, consider how realistic the behaviors are, whether the robot learns and evolves over time, and ongoing subscription costs…
+- Privacy is a critical consideration in this category — companion robots with cameras and microphones are always-on in intimate home settings
+- Check what data is collected, where it's stored, and whether it can operate offline
+
+For children, prioritize age-appropriate content, educational value, and parental controls. For pet-like companions, consider how realistic the behaviors are, whether the robot learns and evolves over time, and ongoing subscription costs (some require monthly plans for AI features).
+
+Privacy is a critical consideration in this category — companion robots with cameras and microphones are always-on in intimate home settings. Check what data is collected, where it's stored, and whether it can operate offline.
+
+## How to Choose a Companions Robot
+
+Start with the intended user and their primary need. Loneliness reduction in seniors? ElliQ and similar proactive companions that initiate check-ins and suggest activities are purpose-built for this. Child development? Look for robots with structured educational content and emotional intelligence coaching.
+
+#### Decision Framework
+
+1
+
+Start with the intended user and their primary need
+
+2
+
+Consider the ongoing costs — many companion robots require cloud subscriptions ($10–$30/month) for their AI capabilities to function
+
+3
+
+Evaluate the setup experience: the best companion robots for seniors work out of the box with minimal technical knowledge
+
+4
+
+Finally, check the manufacturer's longevity and commitment — a companion robot that loses cloud support becomes an expensive paperweight
+
+Practical tip: Finally, check the manufacturer's longevity and commitment — a companion robot that loses cloud support becomes an expensive paperweight.
+
+Specs and pricing
+
+## Technical comparisons, use-case framing, and cost range context.
+
+These sections help separate the robots that merely sit in the category from the ones that genuinely fit a deployment or buying brief.
+
+## Key Specifications to Compare
+
+When evaluating companions robots, these are the specifications that matter most for real-world performance and value:
+
+### AI platform and conversation quality
+
+### Proactive engagement
+
+does the robot initiate interaction?
+
+### Privacy features
+
+local vs. cloud processing
+
+### Battery life or always-plugged operation
+
+### Subscription requirements and ongoing costs
+
+### Physical expressiveness
+
+movement, facial display, sound
+
+## Common Use Cases for Companions Robots
+
+The companions category serves a variety of applications, from consumer households to industrial deployments:
+
+Eldercare companionship and loneliness reduction
+
+Children's social-emotional learning and development
+
+Pet companionship without allergies or maintenance
+
+Mental health support and daily check-ins
+
+Assisted living facility resident engagement
+
+Cognitive stimulation for dementia and Alzheimer's patients
+
+## Price Range Overview
+
+Companions robots with published pricing range from $125 to $578k. 23 models in this category do not have publicly listed pricing. Below is a breakdown by price tier to help you understand what's available at different budget levels.
+
+### Under $1,000
+
+21 models
+
+$429 Available
+
+$799 Available
+
+$999 Available
+
+$600 Available
+
+EBO Mini Sport FamilyBot
+
+$160 Pre-order
+
+$379 Pre-order
+
+$249 Pre-order
+
+$442 Available
+
+$219 Pre-order
+
+$125 Available
+
+$699 Discontinued
+
+$269 Available
+
+$169 Available
+
+$499 Pre-order
+
+$198 In development
+
+$299 Available
+
+$599 Pre-order
+
+$328 Pre-order
+
+$699 Available
+
+$250 Pre-order
+
+$799 Available
+
+### $1,000 – $5,000
+
+3 models
+
+Flagship Soundwave Auto-Converting Robot
+
+$1.4k Pre-order
+
+$3.2k Available
+
+$2.5k Available
+
+### $5,000 – $25,000
+
+2 models
+
+$17.2k Available
+
+$19.8k Available
+
+### $25,000 – $100,000
+
+3 models
+
+$98.8k Available
+
+$95k Available
+
+$39.6k Available
+
+### Over $100,000
+
+1 model
+
+$578k Available
+
+## Companions Robot Specifications Comparison
+
+Compare key specifications across all 53 companions robots in the database. All data is sourced from manufacturer disclosures and verified against official documentation.
+
+Companions robot specifications comparison
+
+| Robot | Manufacturer | Price | Status | Height | Weight | Battery | Speed |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LOVOT | GROOVE X | $578k | Available | 43cm | 4.6kg (LOVOT 3.0; 2.0 was 4.3kg) | 30-45 minutes active, then returns to nest | 1-2 km/h |
+| Romi Lacatan | MIXI | $98.8k | Available | Not officially disclosed | Approx. 400g | 2,875 mAh lithium-ion battery; runtime not officially disclosed | Stationary tabletop companion with 2-axis movement |
+| David | Realbotix | $95k | Available | Not officially disclosed | Not officially disclosed | F-Series product page lists an estimated 4–8 hours from the built-in battery; Realbotix's April 2026 delivery update separately says robots can have up to 10 hours and can operate continuously when plugged in | Wheeled base, remote-controlled (specific speed not disclosed) |
+| Poketomo | Sharp | $39.6k | Available | 11.7cm | 194g | About 1 day of typical use | N/A |
+| Mirumi | Yukai Engineering | $19.8k | Available | 14cm | 155g | Approximately 8 hours | N/A |
+| Misty II | Misty Robotics | $17.2k | Available | 35.5 cm (14 in) | 2.7 kg (6 lb) | Up to 2 hours (max) or 30–60 minutes (heavy use) | Limited to ~450 mm/s (~1.6 km/h) |
+| aibo (ERS-1000) | Sony | $3.2k | Available | 29.3cm (standing) | 2.2kg | ~2 hours | Not disclosed |
+| M1 | Zeroth Robotics | $2.5k | Available | 494mm (19.45 in) | Robot body 2.8kg (6.17 lbs) + mobility base 1.4kg (3.08 lbs) | ~2 hours | 0.05m/s (bipedal); 0.6m/s (wheeled) |
+| Flagship Soundwave Auto-Converting Robot | Robosen Robotics | $1.4k | Pre-order | 14.33 in (36.4 cm) | Not officially disclosed | Not officially disclosed | Bipedal walking supported; speed not officially disclosed |
+| EBO X | Enabot | $999 | Available | Not officially disclosed | 1700g (±20g) | 2-3 hours | 1.5 m/s |
+| LilMilo | Ecovacs | $799 | Available | Not officially disclosed | Not officially disclosed | Up to 360 minutes | Not applicable |
+| Yonbo X1 | X-Origin AI | $799 | Available | 256mm (10.1 in) | 3.2kg (7.1 lbs) | 3.5 hours | 1.5 m/s |
+| Kuri | Mayfield Robotics | $699 | Discontinued | 50 cm | 6 kg | Hours of battery life; exact runtime not specified | Not publicly specified |
+| KATA Friends | SwitchBot | $699 | Available | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not officially disclosed |
+| EBO Max FamilyBot | Enabot | $600 | Available | Not officially disclosed | 750g | Standby: 6 hours; video recording: 4 hours; continuous movement: 3 hours | 20–60 cm/s (0.2–0.6 m/s) |
+| Rhem | Rhem Labs | $599 | Pre-order | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not applicable; Rhem is presented as a tabletop home robot |
+| Beni | Mondo Robotics | $499 | Pre-order | 7.1 in (18.0 cm) | 3.86 lb (1.75 kg) | ~1.5 hours continuous use per swappable battery | 17.9 mph |
+| Loona | KEYi Tech | $442 | Available | 17.3cm (6.8 in) | 1.1kg (2.42 lbs) | 2 hours continuous playtime; 1350 mAh, 11.1 V lithium-ion rechargeable battery | N/A |
+| Moflin | Casio | $429 | Available | 9cm (3.5 in) | Approx. 260g (9.2 oz) | Up to 5 hours | Stationary / carried companion |
+| Gogobot D1 | Gogobot | $379 | Pre-order | 188 mm (7.4 in) | 800 g (1.76 lbs) | Approx. 70-90 minutes of intensive continuous movement; up to 3 hours of typical standby plus normal interaction | Not officially disclosed |
+| Chess Mini | SenseRobot | $328 | Pre-order | Not officially disclosed | Not officially disclosed | Not officially disclosed | N/A |
+| Reachy Mini | Pollen Robotics | $299 | Available | 28 cm (11 in) | 1.350 kg (Lite) / 1.475 kg (Wireless) | Not officially disclosed | Not officially disclosed |
+| Miko 3 | Miko | $269 | Available | 22cm (8.67 in) | 0.9kg (2 lbs) | 5–7 hours active use, up to 12 hours standby | N/A |
+| Coglet | Will Cogley | $250 | Pre-order | 22 cm | Not officially disclosed | Not officially disclosed; maker parts list uses USB power input | Not applicable (stationary desktop companion robot) |
+| Pophie | InsBotics | $249 | Pre-order | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not applicable (stationary companion robot with expressive body rotation) |
+| Loona DeskMate | KEYi Tech | $219 | Pre-order | Not officially disclosed | Not officially disclosed | Not applicable (desktop dock / powered charging hub) | N/A (stationary desktop companion with motorized head) |
+| OlloNi | OLLOBOT | $198 | Development | 650–1200 mm (S1: 650 mm; L1: 660–1200 mm with extended neck) | 17 kg (S1) / 19 kg (L1) | Up to 4 hours | Approx. 0.5 m/s |
+| Miko Mini | Miko | $169 | Available | 165mm (6.5 in) | Not disclosed | Up to 1 hour active gameplay; up to 15 hours standby on Miko's global comparison page (India FAQ lists up to 7 hours standby) | Not disclosed |
+| EBO Mini Sport FamilyBot | Enabot | $160 | Pre-order | Not officially disclosed | 700g listed in official Enabot Store product JSON | Not officially disclosed | Not officially disclosed |
+| StackChan | M5Stack | $125 | Available | 61.5 mm (product size 54.0 x 70.5 x 61.5 mm) | 187.0 g | Not officially disclosed; built-in 550 mAh battery | Not officially disclosed; 360° horizontal servo and 90° vertical servo |
+| PARO | AIST | — | Active | Not publicly specified on official site | Not publicly specified on official site | Not officially disclosed | N/A (interactive companion robot) |
+| Abi | Andromeda Robotics | — | Available | ~110 cm | Not published | AC-powered for long sessions (battery not published) | Stationary (indoor platform) |
+| Next-Generation Companion Robot | ASUS | — | Prototype | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not officially disclosed |
+| Intelligent Soft-Bodied Bionic Arowana | FullDepth | — | Available | 200 mm including fins | 3.8 kg | At least 12 hours | 1 knot (about 1.9 km/h) |
+| Joobie | Hugbibi | — | Pre-order | Not officially disclosed | 0.25 kg (0.55 lb) | Not officially disclosed | Not applicable / not officially disclosed |
+| ElliQ 3 | Intuition Robotics | — | Available | 14.4 in tall (14.4 × 11.0 × 6.3 in) | 5.3 lb (2.4 kg) | Mains powered | Stationary |
+| Ami | Lepro | — | Development | Desktop / tabletop device | Not officially disclosed | Not officially disclosed | Stationary |
+| Cocomo | Ludens AI | — | Prototype | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not officially disclosed |
+| INU | Ludens AI | — | Prototype | Not officially disclosed | Not officially disclosed | Up to 4 hours; USB-C fast charge; dock-compatible | Not officially disclosed |
+| RUMI | Luvbotics | — | Pre-order | 65cm | 12kg | 3 hours | 1.5m/s |
+| MagicDog | MagicLab | — | Active | 56cm standing | 15.8kg excluding battery | 1.5-3 hours | 3.0 m/s |
+| An'An Panda | Mind With Heart Robotics | — | Available | Not officially disclosed | Not officially disclosed | 4-5 hours continuous use | N/A (non-mobile companion) |
+| T2 | PadBot | — | Active | 22.5cm | 1.68kg | Up to 6 hours continuous working time | Not officially disclosed |
+| Prime T1 | PrimeBot | — | Prototype | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not officially disclosed |
+| KOIBOT ROLA Series | Reon Robotics | — | Pre-order | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not applicable; not sold for free-roaming locomotion |
+| Fuzozo | Robopoet | — | Development | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not officially disclosed |
+| Ballie | Samsung | — | Development | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not officially disclosed |
+| ROVAR X3 | Sentigent Technology | — | Prototype | 45.7cm (1.5 ft) | Not officially disclosed | 6 hours (reported by The Verge from CES 2026) | Not officially disclosed |
+| Jennie | Tombot | — | Pre-order | Not officially disclosed | Not officially disclosed | Designed to last all day on a single charge | Lap-based companion; mobility speed not officially disclosed |
+| Sweekar | Takway AI | — | Development | Palm-sized (egg-shaped form factor) | 89 g | Not officially disclosed | N/A (stationary/portable device) |
+| Aura | Tuya Smart | — | Development | Not officially disclosed | Not officially disclosed | Not officially disclosed | Not officially disclosed |
+| Alpha Mini | UBTECH | — | Available | 24.5 cm | 700 g (with battery) | Not publicly specified | Not publicly specified |
+| Kangbao (Health Baby) | University of Electronic Science and Technology of China (UESTC) | — | Prototype | 1.2m | Not officially disclosed | Not officially disclosed | Not officially disclosed |
+
+Manufacturer landscape
+
+## Company concentration, technology posture, and category structure.
+
+Once the inventory looks promising, this is where you figure out whether the category is broad and competitive or concentrated around a smaller set of serious builders.
+
+## Manufacturers in Companions
+
+48 companies are building companions robots tracked in the ui44 database. Here's how the product landscape breaks down by manufacturer.
+
+### Enabot
+
+3 models EBO X Available EBO Max FamilyBot Available EBO Mini Sport FamilyBot Pre-order
+
+### KEYi Tech
+
+2 models Loona Available Loona DeskMate Pre-order
+
+### Ludens AI
+
+2 models Cocomo Prototype INU Prototype
+
+### Miko
+
+2 models Miko 3 Available Miko Mini Available
+
+### AIST
+
+1 model PARO Active
+
+### Andromeda Robotics
+
+1 model Abi Available
+
+### ASUS
+
+1 model Next-Generation Companion Robot Prototype
+
+### Casio
+
+1 model Moflin Available
+
+### Ecovacs
+
+1 model LilMilo Available
+
+### FullDepth
+
+1 model Intelligent Soft-Bodied Bionic Arowana Available
+
+### Gogobot
+
+1 model Gogobot D1 Pre-order
+
+### GROOVE X
+
+1 model LOVOT Available
+
+### Hugbibi
+
+1 model Joobie Pre-order
+
+### InsBotics
+
+1 model Pophie Pre-order
+
+### Intuition Robotics
+
+1 model ElliQ 3 Available
+
+### Lepro
+
+1 model Ami Development
+
+### Luvbotics
+
+1 model RUMI Pre-order
+
+### M5Stack
+
+1 model StackChan Available
+
+### MagicLab
+
+1 model MagicDog Active
+
+### Mind With Heart Robotics
+
+1 model An'An Panda Available
+
+### Mayfield Robotics
+
+1 model Kuri Discontinued
+
+### MIXI
+
+1 model Romi Lacatan Available
+
+### Misty Robotics
+
+1 model Misty II Available
+
+### Mondo Robotics
+
+1 model Beni Pre-order
+
+### OLLOBOT
+
+1 model OlloNi Development
+
+### PadBot
+
+1 model T2 Active
+
+### Pollen Robotics
+
+1 model Reachy Mini Available
+
+### PrimeBot
+
+1 model Prime T1 Prototype
+
+### Realbotix
+
+1 model David Available
+
+### Reon Robotics
+
+1 model KOIBOT ROLA Series Pre-order
+
+### Rhem Labs
+
+1 model Rhem Pre-order
+
+### Robopoet
+
+1 model Fuzozo Development
+
+### Robosen Robotics
+
+1 model Flagship Soundwave Auto-Converting Robot Pre-order
+
+### Samsung
+
+1 model Ballie Development
+
+### SenseRobot
+
+1 model Chess Mini Pre-order
+
+### Sharp
+
+1 model Poketomo Available
+
+### Sentigent Technology
+
+1 model ROVAR X3 Prototype
+
+### Sony
+
+1 model aibo (ERS-1000) Available
+
+### SwitchBot
+
+1 model KATA Friends Available
+
+### Tombot
+
+1 model Jennie Pre-order
+
+### Takway AI
+
+1 model Sweekar Development
+
+### Tuya Smart
+
+1 model Aura Development
+
+### UBTECH
+
+1 model Alpha Mini Available
+
+### University of Electronic Science and Technology of China (UESTC)
+
+1 model Kangbao (Health Baby) Prototype
+
+### Will Cogley
+
+1 model Coglet Pre-order
+
+### X-Origin AI
+
+1 model Yonbo X1 Available
+
+### Yukai Engineering
+
+1 model Mirumi Available
+
+### Zeroth Robotics
+
+1 model M1 Available
+
+View all robotics companies in our manufacturers directory.
+
+## Technology Landscape
+
+A comprehensive look at the sensors, connectivity, capabilities, and AI platforms used across all 53 companions robots in the database.
+
+### Most Common Sensors
+
+Accelerometer / gyroscope sensor 4%
+
+### Key Capabilities
+
+Autonomous Navigation 9%
+
+Touch Response 8%
+
+Personality Development Over Time 8%
+
+Face Recognition 6%
+
+Voice recognition 6%
+
+Voice Interaction 6%
+
+OTA software updates 6%
+
+Storytelling 4%
+
+Touch response 4%
+
+Emotional Companionship 4%
+
+### Connectivity Standards
+
+Bluetooth Low Energy 4%
+
+### AI Platforms
+
+Behavior-learning interaction model tuned for therapeutic companionship Generative AI + proprietary emotional AI models (Andromeda OS); face recognition, emotion detection, personalized memory, mood-adaptive responses ASUS Maestro AI agentic orchestration for personalized conversation, task coordination, and memory-based support Proprietary Emotional AI with more than 4 million emotional possibilities and local voice-feature processing for owner recognition Built-in large language model with long-term memory and multimodal emotional perception across visual, auditory, and tactile inputs GPT-4o mini integration + Visual SLAM navigation Multimodal AI with long-term memory, contextual understanding, multi-model person/pet detection AI recognition distinguishes people and pets, filters irrelevant footage, and organizes event recordings; no general-purpose onboard voice assistant has been officially disclosed. FullDepth says the robot combines fish neuro-drive models, AI algorithms, and high-precision attitude control to generate lifelike arowana swimming in automatic or remote-control modes. Official materials describe voice interaction, personality-style responses, smart motion, and app-based EDU programming support; independent launch coverage describes AI-powered conversation, but the exact model/provider is not officially disclosed. GPU (1,024 cores) + 32 Tensor cores + 8 CPU cores, 512GB storage (LOVOT 3.0) Hugbibi describes mood/state interpretation, touch/sound/motion reactions, app-visible memories, and an MBTI for Pets personality system that changes reactions over time; exact onboard compute, cloud dependency, and model providers are not officially disclosed. Split edge/cloud AI architecture: on-device perception and real-time control with cloud-based multimodal reasoning, memory, emotion modeling, and dialogue planning MediaTek octa-core SoC + dual-core APU, LLM-powered Relationship Orchestration Engine GPT-powered conversations; current official hardware section lists a 5 TOPS processor, Cortex-M4 100 MHz co-processor, dual-core DSP 360 MHz HIFI audio engine, 2 GB LPDDR4 RAM, and 8 GB eMMC 5.0 storage Screen-aware embodied AI assistant with audio-visual intent detection, attention/state awareness, emotion-aware interaction, clipboard/screen context, and productivity workflow integrations Multimodal contextual AI with real-time eye tracking, gesture and facial-expression recognition, voice-tone understanding, AR environmental overlay, and on-device encrypted processing Klara OS with on-device-by-default AI processing, user-enabled cloud features, session learning, and a Soul Chip identity/personality memory layer Klara OS with on-device and cloud learning across sessions; core head, body, and tail behaviors work with no internet required Multimodal perception and Luvbotics' edge/cloud emotional interaction stack for touch, voice, eye expression, behavior generation, long-term memory, and personality adaptation Factory firmware includes an AI Agent for voice-based interaction, expressive animations, OTA updates, app-linked remote video/avatar control, and open development through Arduino, UiFlow2, PlatformIO, and ESP-IDF on the ESP32-S3 CoreS3 controller. MagicLab emotional interaction system and SAGE AI algorithm; AI voice interaction includes offline commands, intercom, music playback, and LLM conversations that may require a paid subscription Affective AI engine with long-term memory, multimodal sensing (voice + touch + interaction habits), and continuous personalization Autonomous home navigation and voice-triggered interaction Deep learning AI for natural conversation, face recognition, voice recognition, and adaptive learning Kid-focused conversational AI with moderated, age-appropriate interactions ChatRomi 1.0 plus Lacatan-only ChatRomi 2.0; official guidebook says ChatRomi 2.0 uses OpenAI Realtime API, web search, optional visual understanding, customizable speaking styles, and long-term memory support after the April 21, 2026 Lacatan update Qualcomm Snapdragon 820 and 410 processors; Windows IoT Core main OS and Android 8 for navigation/computer vision; computer vision includes facial recognition and deep-learning AI using Qualcomm Snapdragon Neural Processing Onboard subject tracking and automatic highlight-editing workflow; detailed perception model, compute, and safety stack have not been publicly disclosed. Six-engine emotional AI system; personality develops over time based on interactions ChatGPT-based multilingual dialogue for kid-focused conversation, storytelling, games, and voice interaction Open-source Python SDK with Hugging Face model/app integrations for speech, vision, and conversational behaviors Multimodal interaction, contextual awareness, and long-term memory (exact AI stack not officially disclosed) Proprietary/embedded Realbotix AI; official materials describe third-party integrations for local AI applications and cloud providers including ChatGPT/OpenAI and DeepSeek, with Llama, Gemini, and Claude rollouts planned Amoria Emotional AI System for voice interaction, contextual response, response style, memory-oriented conversation, and privacy-conscious local-first interaction principles On-device wellness AI assistant with natural voice conversation, reminder handling, reading explanations, and family-alert workflows; Rhem says many tasks run locally on a dedicated AI chip. Robopoet describes a MEM multimodal emotion model, EchoChain long-term memory system, and GrowMe personality-growth system that adapts Fuzozo's personality and responses through interaction; exact model providers, onboard compute, and cloud/on-device split are not officially disclosed. Programmable action and sound-effect workflows through Robosen Studio and Robosen Hub; no general-purpose onboard AI assistant has been officially disclosed. Google Gemini + proprietary Samsung language models Built-in chess AI with 19 difficulty levels plus conversational coaching and analysis Sharp CE-LLM conversational AI running on a Qualcomm Snapdragon 662 octa-core processor with 3GB RAM and 32GB storage. Official product page describes multimodal adaptive following plus multimodal fusion of visual, gaze, and gesture inputs for attention and emotion understanding. Sony proprietary deep learning AI (cloud + edge) On-device LLM with local visual processing for speech, gesture comprehension, face recognition, emotion cues, diary memories, and real-time companion behavior Tombot describes autonomous robotic-pet behavior, touch-aware reactions, voice-command responses, and upgradeable behavior software; exact onboard compute, model provider, and cloud dependency have not been officially disclosed. Gemini Flash + ChatGPT-class models; MBTI-based personality modeling; long-term emotional memory Generative AI + pet behavior analysis, sound-based emotion recognition, AI pet recognition, intelligent tracking, V-SLAM navigation, and AIVI object recognition UBTECH interaction stack with voice, face/object recognition, and balance control Knowledge-hypergraph autonomous decision-making architecture with local on-device inference; UESTC reports over 97% physiological-measurement accuracy and over 92% emotion-recognition accuracy in validation On-device face, person, and object detection through the Grove Vision AI camera module, optional custom local models, and optional online analysis through the open-source XiaoZhi AI platform; programmable in Python with online and offline operating modes. Multimodal conversational AI with emotion-aware interaction, customizable personality profiles, and long-term memory Onboard IC chip running Yukai Engineering's randomized behavior algorithm for lifelike glance and reaction patterns Embodied-intelligence platform with whole-home mapping, visual recognition and obstacle avoidance, posture/motion tracking, multilingual conversational interaction, and support for open programming, VR integration, and reinforcement-learning tools
+
+Explore these technologies in detail:
+
+Operations
+
+## Safety, maintenance, and implementation readiness.
+
+This chapter keeps the route useful after the first visual scan, when the real questions become ownership, rollout friction, and operational constraints.
+
+## Safety & Regulation for Companions Robots
+
+Companion robots raise unique safety and ethical considerations that differ from task-oriented robotics. Physical safety risks are generally low — most companion robots are stationary or slow-moving, with soft exteriors and limited force output.
+
+#### Physical Safety
+
+Modern robots implement multiple safety layers including force limiting, collision detection, and emergency stops.
+
+#### Standards & Certifications
+
+Look for ISO, CE, FCC, and category-specific certifications that validate safety compliance.
+
+#### Privacy & Cybersecurity
+
+Connected robots with cameras and microphones require careful evaluation of data handling and security practices.
+
+The primary safety concerns are psychological and digital. For elderly users, there are ethical questions about the appropriate level of emotional attachment to a robot: clinical studies show that seniors can form deep bonds with robot companions, which provides therapeutic benefits but also creates vulnerability if the product is discontinued.
+
+#### Privacy Matters
+
+For children, parental controls and content filtering are essential safety features, and researchers continue studying the long-term effects of human-robot relationships on social development. Data privacy is a critical concern — companion robots with always-on microphones and cameras collect intimate household data.
+
+## Maintenance & Ownership Costs
+
+Companion robots are designed for minimal physical maintenance, reflecting their target users who may not be technically inclined. Most companion robots are stationary or have limited mobility, reducing wear on mechanical components.
+
+#### Regular Upkeep
+
+Most robots need periodic cleaning, software updates, and consumable replacements to maintain peak performance.
+
+#### Ongoing Costs
+
+Factor in consumables, subscriptions, battery replacements, and potential maintenance contracts when budgeting.
+
+#### Expected Lifespan
+
+A well-maintained robot's lifespan varies by category — from 4–7 years for cleaning robots to 8–12 years for mowers.
+
+$120–$360
+
+Annual maintenance
+
+2–4 yr
+
+Battery lifespan
+
+2–4 yr
+
+Expected lifespan
+
+$10–$30/mo
+
+Subscription cost
+
+The primary ongoing cost is the cloud subscription that powers AI features — typically $10–$30 per month, or $120–$360 annually. Without this subscription, most companion robots lose their conversational abilities and become significantly less useful.
+
+#### Cost-Saving Tip
+
+Battery-powered companions need charging every 1–5 days depending on usage, and battery replacement (every 2–4 years) is typically the only hardware maintenance required. Software updates are delivered automatically.
+
+## Getting Started with Companions Robots
+
+If you are new to companions robots, here is a step-by-step approach to finding the right model for your needs. This guide applies whether you are buying your first robot or upgrading from an earlier model.
+
+### Planning phase
+
+1
+
+Identify the primary user and their needs: elderly companionship, child development, pet experience, or general household entertainment.
+
+2
+
+Test the interaction quality before buying: watch extended demo videos or visit a showroom — the quality of conversation and emotional response varies enormously between models.
+
+3
+
+Check ongoing subscription costs: many companion robots require $10–$30/month cloud subscriptions for their AI features to function — factor this into total cost of ownership.
+
+### Execution phase
+
+4
+
+Evaluate privacy features: look for physical camera shutters, local processing options, clear data policies, and the ability to delete collected data.
+
+5
+
+Research the manufacturer's stability and commitment to long-term support — a companion robot that loses cloud services becomes non-functional.
+
+6
+
+Consider the setup experience: the best companion robots for elderly users work out of the box with minimal technical knowledge and include proactive engagement features.
+
+Use ui44's comparison tool and individual robot detail pages to evaluate the 53 companions robots in the database.
+
+Outlook
+
+## History, market trajectory, and future pressure points.
+
+The goal here is not trend theater. It is to show whether the category is stabilizing, accelerating, or still too early for confident buyer decisions.
+
+## History & Evolution of Companions Robots
+
+The companion robot concept began with simple entertainment robots: Sony's AIBO (1999) was the first mainstream robot pet, captivating consumers with a robot dog that could learn, express emotions, and develop a personality over time. AIBO was discontinued in 2006 but remained so beloved that owners held funerals for broken units.
+
+1999
+
+#### The companion robot concept began with simple entertainment robots: Sony's AIBO (1999)
+
+The companion robot concept began with simple entertainment robots: Sony's AIBO (1999) was the first mainstream robot pet, captivating consumers with a robot dog that could learn, express emotions, and develop a personality over time
+
+2006
+
+#### AIBO
+
+AIBO was discontinued in 2006 but remained so beloved that owners held funerals for broken units
+
+2003
+
+#### Meanwhile
+
+Meanwhile, Paro the therapeutic robot seal (2003) demonstrated the clinical value of robotic companions, showing measurable reductions in stress and agitation among dementia patients
+
+2014
+
+The 2010s brought a wave of social robots: SoftBank's Pepper (2014) attempted to read human emotions and was deployed in retail and hospitality
+
+2017
+
+#### Jibo (2017)
+
+Jibo (2017) was crowdfunded as the first social robot for the home but shut down in 2019, becoming a cautionary tale about cloud-dependent companion robots
+
+2023
+
+#### The integration of large language models from 2023 onward transformed companion robots from scripted responders into genuinely conversational partners
+
+The integration of large language models from 2023 onward transformed companion robots from scripted responders into genuinely conversational partners, enabling open-ended dialogue, contextual memory, and personality adaptation
+
+Where we are now
+
+Meanwhile, Paro the therapeutic robot seal (2003) demonstrated the clinical value of robotic companions, showing measurable reductions in stress and agitation among dementia patients. The 2010s brought a wave of social robots: SoftBank's Pepper (2014) attempted to read human emotions and was deployed in retail and hospitality.
+
+Jibo (2017) was crowdfunded as the first social robot for the home but shut down in 2019, becoming a cautionary tale about cloud-dependent companion robots. The field matured significantly in the 2020s: Sony relaunched aibo (ERS-1000) with dramatically improved AI, ElliQ launched as a purpose-built eldercare companion with proactive engagement, and Embodied's Moxie targeted children's social-emotional development with structured therapeutic content.
+
+The integration of large language models from 2023 onward transformed companion robots from scripted responders into genuinely conversational partners, enabling open-ended dialogue, contextual memory, and personality adaptation. Today the market is bifurcating into therapeutic companions (clinically validated, targeting healthcare) and consumer companions (entertainment and general companionship), with the eldercare segment growing fastest due to demographic trends.
+
+## Companions Robots vs. Traditional Alternatives
+
+Companion robots compete with — and often complement — several traditional approaches to social support, companionship, and mental stimulation. For elderly loneliness, the primary alternative is human social interaction: family visits, community programs, professional caregiving, and senior center activities. No robot can replace genuine human connection, and responsible companion robot companies position their products as supplements to, not replacements for, human relationships.
+
+#### Smart Speakers & Displays
+
+$30–$250
+
+✓
+
+Voice interaction, music, smart home control at very low cost
+
+△
+
+No physical presence, mobility, or emotional engagement through movement
+
+Best for: Voice-first information and entertainment without physical interaction
+
+#### Robotic Pets (Simple)
+
+$20–$150
+
+✓
+
+Very affordable entry point for robotic companionship and play
+
+△
+
+Limited interaction depth, no AI learning or real conversation
+
+Best for: Children's entertainment and basic companion interaction
+
+#### Tablet-Based Communication
+
+$200–$500
+
+✓
+
+Video calls, games, and remote presence for eldercare
+
+△
+
+Stationary, no physical embodiment or social robot interaction
+
+Best for: Remote family connection and telehealth for elderly users
+
+#### The Bottom Line
+
+If the manufacturer discontinues service, the robot becomes non-functional. This is a real risk that buyers should weigh carefully, particularly for elderly users who may form strong attachments.
+
+## Companions Robot Trends & Industry Outlook
+
+Large language models are transforming companion robots from scripted conversationalists into genuinely engaging partners. The integration of GPT-class models enables companions to hold open-ended conversations, remember personal details, and adapt their personality over time.
+
+#### Industry Trends
+
+Emotion recognition through voice tone analysis and facial expression detection is becoming standard, allowing robots to respond to the user's emotional state rather than just their words. The eldercare segment is seeing strong institutional adoption, with assisted living facilities deploying companion robots to supplement human caregiving.
+
+Consumer awareness is growing through viral social media content showing emotional bonds between humans and robot pets.
+
+## Future Outlook for Companions Robots
+
+Companion robotics is entering a transformative period driven by large language models and advances in emotion recognition technology. The near-term future (2025–2028) will see several significant developments. First, conversational quality will improve dramatically: integration of GPT-class and similar language models is already enabling open-ended, contextually aware conversation that makes older scripted companions feel obsolete.
+
+$5–8B
+
+Market by 2030
+
+2030
+
+Key milestone year
+
+2025–2026
+
+#### LLM-Powered Conversation
+
+Large language models enable genuinely engaging, context-aware conversations that adapt to individual users over time.
+
+2027–2028
+
+#### Emotional Intelligence
+
+Multimodal emotion recognition (voice tone, facial expression, body language) allows companions to respond appropriately to user emotional states.
+
+By 2030
+
+#### Healthcare Integration
+
+Companion robots integrated into eldercare and mental health treatment plans, with clinical validation of therapeutic benefits.
+
+#### Key Uncertainty
+
+Fifth, institutional adoption in assisted living and memory care facilities is expanding rapidly, with companion robots becoming standard therapeutic tools alongside physical therapy and occupational therapy. The companion robot market is projected to reach $5–$8 billion by 2030, with the eldercare segment growing fastest due to the convergence of aging demographics, clinically validated benefits, and improving AI capabilities that make robot companions genuinely engaging rather than gimmicky.
+
+FAQ and routes
+
+## Decision support, trust notes, and adjacent pages worth opening next.
+
+Finish here when you need practical next steps rather than more category theory.
+
+## Frequently Asked Questions About Companions Robots
+
+### General
+
+What are companions robots?
+
+Social robots, robot pets, and elderly-care companions designed for emotional connection and everyday support at home. The ui44 database currently tracks 53 robots in this category from 48 manufacturers.
+
+How many companions robots are in the ui44 database?
+
+ui44 currently tracks 53 companions robots from 48 different manufacturers including AIST, Andromeda Robotics, ASUS, Casio, Ecovacs, and 43 more. Browse the full robot directory to see all categories.
+
+What can companions robots do?
+
+Across the 53 robots in this category, 503 distinct capabilities are represented, including: Therapeutic companionship, Responds to touch, voice direction, and handling, Learns preferred user interactions, Face-to-face soothing interaction in care settings, Baby seal-like vocalization, Personalized Conversation, Face Recognition, Emotion Recognition & Mood Adaptation, and 495 more. The specific capability set varies by model, price point, and intended application — visit individual robot pages for detailed capability breakdowns.
+
+Which companies make companions robots?
+
+How up-to-date is the companions robot data?
+
+All robot data on ui44 is periodically verified against manufacturer sources, spec sheets, and press releases. The most recent verification for a robot in the Companions category was on 2026-07-13. Each robot page includes a "last verified" date for transparency. If you notice outdated information, please let us know.
+
+Are companions robots safe to use around people?
+
+Companion robots raise unique safety and ethical considerations that differ from task-oriented robotics. Physical safety risks are generally low — most companion robots are stationary or slow-moving, with soft exteriors and limited force output. The primary safety concerns are psychological and digital. For elderly users, there are ethical questions about the appropriate level of emotional… Read the full safety & regulation section for detailed information on certifications, standards, and precautions for companions robots.
+
+How have companions robots evolved over the years?
+
+The companion robot concept began with simple entertainment robots: Sony's AIBO (1999) was the first mainstream robot pet, captivating consumers with a robot dog that could learn, express emotions, and develop a personality over time. AIBO was discontinued in 2006 but remained so beloved that owners held funerals for broken units. Meanwhile, Paro the therapeutic robot seal (2003) demonstrated the… Read the full history & evolution section for a detailed timeline of companions robot development.
+
+### Cost & Maintenance
+
+How much do companions robots cost?
+
+Companions robots with published pricing range from $125 to $578k. 23 models in this category do not list public pricing. See the price range overview for a detailed breakdown by budget tier.
+
+What does it cost to maintain a companions robot?
+
+Companion robots are designed for minimal physical maintenance, reflecting their target users who may not be technically inclined. Most companion robots are stationary or have limited mobility, reducing wear on mechanical components. The primary ongoing cost is the cloud subscription that powers AI features — typically $10–$30 per month, or $120–$360 annually. Without this subscription, most… See the full maintenance & ownership section for a complete breakdown of ongoing costs, consumables, and expected lifespan for companions robots.
+
+What is the most affordable companions robot?
+
+The most affordable companions robot with published pricing is the StackChan by M5Stack at $125. At the other end of the spectrum, the LOVOT by GROOVE X is listed at $578k. Price is just one factor — compare capabilities, sensors, and support when making your decision. See the price overview for a full tier breakdown.
+
+### Technical
+
+What sensors are commonly used in companions robots?
+
+Companions robots in the database use 221 types of sensors. The most common include Tactile sensors, Light sensor, Audition (audio) sensor, Temperature sensor, Posture sensor, Three microphones, and 215 more. See the technology landscape section for a complete breakdown, or browse the components directory.
+
+What connectivity options do companions robots support?
+
+Companions robots in the database support 82 types of connectivity. The most common include Not publicly detailed, Wi-Fi, Cloud-based AI Backend, Messaging app continuity, ASUS Maestro AI orchestration, 2.4GHz Wi-Fi, and 76 more. Connectivity determines how the robot communicates with your network, cloud services, companion apps, and other smart devices. Visit the components directory for detailed information on each protocol.
+
+Do companions robots work with voice assistants?
+
+Some companions robots integrate with voice assistant platforms including Abi Voice AI (90+ languages), Built-in offline voice control, Amazon Alexa, ElliQ Voice AI, M5Stack AI Agent, ChatRomi 1.0, ChatRomi 2.0, Realbotix Custom AI, Bixby, Pet-focused voice interaction. Voice integration enables hands-free control, status updates, and interaction with your broader smart home ecosystem. Not all models support voice assistants — check individual robot pages for specific compatibility details.
+
+### Buying & Getting Started
+
+Which companions robots can I buy right now?
+
+27 companions robots are currently available or actively deployed: PARO by AIST, Abi by Andromeda Robotics, Moflin by Casio, LilMilo by Ecovacs, EBO X by Enabot, EBO Max FamilyBot by Enabot, Intelligent Soft-Bodied Bionic Arowana by FullDepth, LOVOT by GROOVE X, and 19 more. Visit each robot's page for the latest purchasing details and availability.
+
+How do I compare companions robots on ui44?
+
+ui44 offers a side-by-side comparison tool that lets you compare up to 4 companions robots at once. Compare specs like battery life, weight, sensors, price, and capabilities across models including PARO, Abi, Next-Generation Companion Robot, Moflin, LilMilo, and 48 more. You can also check the specifications comparison table above for a quick overview of all models.
+
+How do I get started choosing a companions robot?
+
+Start by defining your specific requirements and budget. The getting started guide above walks through 6 key steps: Identify the primary user and their needs: elderly companionship, child…; Test the interaction quality before buying: watch extended demo videos or visit…; Check ongoing subscription costs: many companion robots require $10–$30/month…. Use ui44's comparison tool and the specs comparison table to narrow down your shortlist.
+
+## Data Integrity
+
+All companions robot data on ui44 is verified against official manufacturer sources, spec sheets, and press releases. Most recent verification: 2026-07-13. If you notice outdated or incorrect data, please let us know — accuracy is our top priority.
+
+Source: ui44 Home Robot Database · 53 models tracked in Companions · Browse all robots· All categories
+
+## Explore More on ui44
+
+### Companions Manufacturers
+
+### Key Components
+
+### More Resources
+
+Next move
+
+## Turn this category read into a real shortlist.
+
+You now have the inventory view, the buyer guidance, and the spec context. The cleanest next step is to compare a small set of candidates, then validate the strongest manufacturers in detail.
+
+53
+
+Tracked robots
+
+48
+
+Manufacturers
+
+Ready
+
+Compare workflow
+
+Compare candidates Review manufacturers Browse all categories

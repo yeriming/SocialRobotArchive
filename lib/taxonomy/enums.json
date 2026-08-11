@@ -1,0 +1,130 @@
+{
+  "screening_status": [
+    "INCLUDE",
+    "EXCLUDE",
+    "UNCERTAIN",
+    "UNSCREENED"
+  ],
+  "robot_status": [
+    "판매중",
+    "판매중단",
+    "연구용",
+    "개발중",
+    "정보확인필요"
+  ],
+  "robot_type": [
+    "휴머노이드",
+    "반려형",
+    "동물형",
+    "테이블탑",
+    "모바일",
+    "텔레프레즌스",
+    "기타"
+  ],
+  "vendor_type": [
+    "제조사",
+    "공식유통사",
+    "판매업체",
+    "대여업체",
+    "중고판매",
+    "기타"
+  ],
+  "offer_type": [
+    "구매",
+    "대여",
+    "중고",
+    "가격문의"
+  ],
+  "availability": [
+    "구매가능",
+    "대여가능",
+    "문의필요",
+    "재고없음",
+    "판매종료",
+    "UNKNOWN"
+  ],
+  "verification_status": [
+    "UNVERIFIED",
+    "PARTIALLY_VERIFIED",
+    "VERIFIED",
+    "NEEDS_REVIEW",
+    "OUTDATED"
+  ],
+  "study_type": [
+    "사용자 연구",
+    "실험 연구",
+    "임상 파일럿",
+    "임상시험",
+    "현장 배치",
+    "사례 연구",
+    "기타"
+  ],
+  "participant_type": [
+    "건강 아동",
+    "환아",
+    "자폐 스펙트럼 아동",
+    "발달장애 아동",
+    "성인",
+    "고령자",
+    "기타"
+  ],
+  "setting": [
+    "병원",
+    "외래",
+    "응급실",
+    "학교",
+    "가정",
+    "연구실",
+    "재활센터",
+    "지역사회",
+    "기타"
+  ],
+  "autonomy_level": [
+    "완전 자율",
+    "부분 자율",
+    "Wizard-of-Oz",
+    "연구자 원격 제어",
+    "임상의 제어",
+    "사전 스크립트",
+    "혼합 방식",
+    "확인 불가"
+  ],
+  "evidence_level": [
+    "개념 제안",
+    "랩 연구",
+    "사용자 연구",
+    "임상 파일럿",
+    "임상시험",
+    "실제 현장 활용"
+  ],
+  "source_type": [
+    "robot_database",
+    "official_product",
+    "official_spec",
+    "official_manual",
+    "official_sdk",
+    "manufacturer",
+    "official_vendor",
+    "vendor",
+    "paper",
+    "hospital",
+    "university",
+    "other"
+  ],
+  "information_type": [
+    "identity",
+    "spec",
+    "interaction",
+    "price",
+    "availability",
+    "study",
+    "clinical_use",
+    "image",
+    "other"
+  ],
+  "tri_state": [
+    "TRUE",
+    "FALSE",
+    "UNKNOWN"
+  ]
+}

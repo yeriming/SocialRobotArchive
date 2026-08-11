@@ -1,0 +1,56 @@
+price_id,robot_id,vendor,vendor_country,vendor_type,offer_type,condition,price_original,currency,price_krw,rental_price,rental_period,academic_discount,availability,shipping_to_korea,source_url,checked_date,notes
+PRICE-0001,ROBOT-0033,KOIBOT Official,일본,제조사,구매,new,6980,USD,,,,,구매가능,TRUE,https://www.koibot.online/,2026-08-11,ROLA One reference retail price; official page states international shipping included.
+PRICE-0002,ROBOT-0038,Sony Electronics,미국,제조사,구매,new,3199.99,USD,,,,,구매가능,FALSE,https://electronics.sony.com/more/aibo/p/ers1000,2026-08-11,Official Sony listing price; Sony Electronics terms state no international shipping.
+PRICE-0003,ROBOT-0039,SwitchBot International,일본,제조사,구매,new,699,USD,,,,,구매가능,UNKNOWN,https://www.switch-bot.com/products/katafriends,2026-08-11,Official SwitchBot listing price for KATA Friends.
+PRICE-0004,ROBOT-0046,YONBO Official Store,미국,제조사,구매,new,799,USD,,,,,구매가능,TRUE,https://yonbo.ai/products/yonbo-x1,2026-08-11,Official Yonbo X1 listing; page notes international orders with duties/taxes covered.
+PRICE-0005,ROBOT-0047,Mirumi Official Store JP,일본,제조사,구매,new,19800,JPY,,,,,구매가능,FALSE,https://store-jp.mirumi.tokyo/,2026-08-11,Official Mirumi JP store price per unit; JP store policy/guide indicates domestic Japan fulfillment.
+PRICE-0006,ROBOT-0035,Fuzozo Global Store,중국,제조사,구매,new,149,USD,,,,,구매가능,UNKNOWN,https://www.fuzozo.net/,2026-08-11,Official Fuzozo global storefront listing price.
+PRICE-0007,ROBOT-0034,Rhem Official,미국,제조사,구매,new,599,USD,,,,,문의필요,UNKNOWN,https://www.rhem.ai/,2026-08-11,Official reservation price shown as early offer (expected launch MSRP separately noted on page).
+PRICE-0008,ROBOT-0048,Zeroth Robotics,미국,제조사,구매,new,2499,USD,,,,,구매가능,UNKNOWN,https://www.zeroth0.com/products/m1,2026-08-11,Official M1 product page listing price.
+PRICE-0009,ROBOT-0040,Tombot,미국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://tombot.com/pages/meet-our-puppies,2026-08-11,Official page indicates first litter sold out and waitlist-based pricing notice.
+PRICE-0010,ROBOT-0018,Ludens AI,일본,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://ludensai.com/,2026-08-11,Official site confirms INU presence but no public MSRP/checkout.
+PRICE-0011,ROBOT-0042,Tuya Smart,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.tuya.com/news-details/tuya-smart-launches-aura-an-ai-companion-robot-designed-for-pets-Kf9m2gpnsxudc,2026-08-11,Official launch announcement without published consumer price.
+PRICE-0012,ROBOT-0041,Takway AI,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://takway.ai/,2026-08-11,Official site provides product overview and campaign path but no fixed MSRP.
+PRICE-0013,ROBOT-0006,Enabot Official Store,중국,제조사,구매,new,999,USD,,,,,재고없음,TRUE,https://store.enabot.com/products/ebo-x-familybot,2026-08-11,Official listing price with global shipping noted; currently out of stock.
+PRICE-0014,ROBOT-0007,Enabot Official Store,중국,제조사,구매,new,549.99,USD,,,,,재고없음,TRUE,https://store.enabot.com/products/ebo-max-familybot,2026-08-11,Official listing price with global shipping noted; currently out of stock.
+PRICE-0015,ROBOT-0008,Enabot Official Store,중국,제조사,구매,new,209.99,USD,,,,,재고없음,TRUE,https://store.enabot.com/products/ebo-mini-sport-familybot,2026-08-11,Official listing price with global shipping noted; currently out of stock.
+PRICE-0016,ROBOT-0015,KEYi Tech Official,중국,제조사,구매,new,299,USD,,,,,구매가능,TRUE,https://keyirobot.com/products/deskmate,2026-08-11,Official Loona DeskMate listing with free shipping text on product page.
+PRICE-0017,ROBOT-0024,Miko Official Store,미국,제조사,구매,new,299,USD,,,,,구매가능,TRUE,https://miko.ai/,2026-08-11,Official Miko 3 listing price; miko.ai shipping policy includes international shipping with country-dependent charges/customs.
+PRICE-0018,ROBOT-0025,Miko Official Store,미국,제조사,구매,new,149,USD,,,,,구매가능,TRUE,https://miko.ai/,2026-08-11,Official Miko Mini listing price; miko.ai shipping policy includes international shipping with country-dependent charges/customs.
+PRICE-0019,ROBOT-0028,OlloNi Official,홍콩,제조사,구매,new,198,USD,,,,,구매가능,TRUE,https://ollobot.com/products/ollo-bot,2026-08-11,Official listing shows sale price and states worldwide shipping.
+PRICE-0020,ROBOT-0030,Pollen Robotics Official,프랑스,제조사,구매,new,499,USD,,,,,구매가능,TRUE,https://pollen-robotics.com/reachy-mini/,2026-08-11,Official Reachy Mini base price; page provides non-core-region ordering path via official distributor.
+PRICE-0021,ROBOT-0029,PadBot,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.padbot.com/padbot-kids-robot-t2.html,2026-08-11,Official page provides quote request flow without public price.
+PRICE-0022,ROBOT-0027,Misty Robotics,미국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.mistyrobotics.com/misty-ii,2026-08-11,Official product page does not publish direct retail price.
+PRICE-0023,ROBOT-0001,AIST Official,일본,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,http://www.parorobots.com/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0024,ROBOT-0002,Andromeda Robotics Official,호주,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://andromedarobotics.ai/product,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0025,ROBOT-0003,ASUS Official,대만,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://press.asus.com/news/press-releases/asus-computex-2026-agentic-ai-robots-kairo-maestro/,2026-08-11,Announcement page checked; no retail price published.
+PRICE-0026,ROBOT-0004,Casio Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.casio.com/us/moflin/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0027,ROBOT-0005,Ecovacs Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.ecovacs.com/us/famibot-ai-companion-robot,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0028,ROBOT-0009,Gogobot Official,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://gogobot.io/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0029,ROBOT-0010,GROOVE X Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://lovot.life/en/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0030,ROBOT-0011,Hugbibi Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://hugbibi.com/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0031,ROBOT-0012,InsBotics Official,싱가포르,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://insbotics.com/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0032,ROBOT-0013,Intuition Robotics Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.elliq.com/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0033,ROBOT-0014,KEYi Tech Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://keyirobot.com/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0034,ROBOT-0016,Lepro Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.prnewswire.com/news-releases/lepro-unveils-lepro-ami-at-ces-2026-a-desktop-ai-companion-that-feels-in-the-room-302652207.html,2026-08-11,Official announcement checked; no retail price published.
+PRICE-0035,ROBOT-0017,Ludens AI Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://ludensai.com/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0036,ROBOT-0019,Luvbotics Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://luvbotics.com/homepage/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0037,ROBOT-0020,M5Stack Official,,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://docs.m5stack.com/en/StackChan,2026-08-11,Official docs checked; no complete robot retail MSRP published.
+PRICE-0038,ROBOT-0021,MagicLab Official,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://support.magiclab.top/en/,2026-08-11,Official documentation page checked; no direct retail pricing listed.
+PRICE-0039,ROBOT-0022,Mind With Heart Robotics Official,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://web.wxbionics.com/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0040,ROBOT-0023,Mayfield Robotics (Historical),,제조사,가격문의,,,,,,,,판매종료,UNKNOWN,https://www.bosch-presse.de/pressportal/de/media/dam_images/pi9519/kuri_product_1sheet.pdf,2026-08-11,Historical official datasheet source; current retail availability ended.
+PRICE-0041,ROBOT-0026,MIXI Official,일본,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://romi.ai/lp/lacatan/en/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0042,ROBOT-0031,PrimeBot Official,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.primebot.cn/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0043,ROBOT-0032,Realbotix Official,미국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://realbotix.ai/,2026-08-11,Official page checked; pricing appears quote/custom without public fixed MSRP.
+PRICE-0044,ROBOT-0036,Samsung Official,한국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://news.samsung.com/us/samsung-ballie-ai-companion-robot-home-video-ces-2024,2026-08-11,Official announcement checked; launch timing noted but public price not posted.
+PRICE-0045,ROBOT-0037,Sharp Official,일본,제조사,가격문의,,,,,,,,문의필요,FALSE,https://poketomo.com/en/,2026-08-11,Official pages indicate sales via Sharp COCORO STORE and Japan retail channels; no direct Korea shipping path identified.
+PRICE-0046,ROBOT-0043,UBTECH Official,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0047,ROBOT-0044,UESTC Official,중국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://news.uestc.edu.cn/info/1007/39358.htm,2026-08-11,Official university/Xinhua publication checked; research pilot with no consumer price.
+PRICE-0048,ROBOT-0045,Will Cogley Project,기타,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://github.com/will-cogley/Coglet,2026-08-11,Official repository checked; no stable direct retail MSRP on repository page.
+PRICE-0049,ROBOT-0049,Jibo Official,미국,제조사,가격문의,,,,,,,,판매종료,UNKNOWN,https://www.myjibo.com/,2026-08-11,Official page checked; discontinued status confirmed and no current public MSRP listed.
+PRICE-0050,ROBOT-0050,BeatBots Official,미국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://beatbots.net/keepon-pro,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0051,ROBOT-0051,Enchanted Tools Official,프랑스,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://enchanted.tools/,2026-08-11,Official page checked; pricing appears quote/custom without public fixed MSRP.
+PRICE-0052,ROBOT-0052,Maxtronics Official,프랑스,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://maxtronics.com/en/nao6/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0053,ROBOT-0053,SoftBank Robotics Official,일본,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://www.softbank.jp/en/robot/,2026-08-11,Official page checked; no fixed public MSRP captured.
+PRICE-0054,ROBOT-0054,Yukai Engineering Store,일본,제조사,구매,new,173.00,USD,,,,,구매가능,UNKNOWN,https://globalstore.ux-xu.com/products/qoobo,2026-08-11,Official store listing price captured from product page.
+PRICE-0055,ROBOT-0055,Anki Official,미국,제조사,가격문의,,,,,,,,문의필요,UNKNOWN,https://anki.bot/pages/meet-vector,2026-08-11,Official page checked; no fixed public MSRP captured.
