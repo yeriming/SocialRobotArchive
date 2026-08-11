@@ -6,6 +6,15 @@ const THUMBNAIL_REVALIDATE_SECONDS = 60 * 60 * 24;
 const THUMBNAIL_TIMEOUT_MS = 8000;
 const MAX_HTML_BYTES = 1_000_000;
 const THUMBNAIL_PROXY_VERSION = "2026-08-11-2";
+const MANUAL_ASSET_PUBLIC_PATHS: Record<string, string> = {
+  "asset://paro-manual": "/manual-thumbnails/paro-manual.png",
+  "asset://joobie-manual": "/manual-thumbnails/joobie-manual.png",
+  "asset://cocomo-manual": "/manual-thumbnails/cocomo-manual.png",
+  "asset://inu-manual": "/manual-thumbnails/inu-manual.png",
+  "asset://ballie-manual": "/manual-thumbnails/ballie-manual.png",
+  "asset://alpha-mini-manual": "/manual-thumbnails/alpha-mini-manual.png",
+  "asset://tuya-aura-manual": "/manual-thumbnails/tuya-aura-manual.png"
+};
 const USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 const BLOCKED_HOSTNAMES = new Set(["localhost", "0.0.0.0", "::1"]);
@@ -363,6 +372,11 @@ export function getThumbnailProxyUrl(pageUrl: string): string | null {
     return null;
   }
 
+  const manualPath = MANUAL_ASSET_PUBLIC_PATHS[pageUrl];
+  if (manualPath) {
+    return manualPath;
+  }
+
   try {
     const normalizedPageUrl = new URL(pageUrl).toString();
     return `/api/thumbnail?url=${encodeURIComponent(normalizedPageUrl)}&v=${encodeURIComponent(THUMBNAIL_PROXY_VERSION)}`;
@@ -372,6 +386,11 @@ export function getThumbnailProxyUrl(pageUrl: string): string | null {
 }
 
 export function getThumbnailProxyUrlFromCandidates(candidates: string[]): string | null {
+  const manualCandidate = candidates.find((candidate) => MANUAL_ASSET_PUBLIC_PATHS[candidate]);
+  if (manualCandidate) {
+    return MANUAL_ASSET_PUBLIC_PATHS[manualCandidate];
+  }
+
   const normalized = candidates
     .map((candidate) => {
       try {
