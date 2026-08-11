@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getRobots } from "@/lib/data/archive";
-import { getThumbnailProxyUrlFromCandidates } from "@/lib/data/thumbnail";
+import { getForcedManualThumbnailUrl, getThumbnailProxyUrlFromCandidates } from "@/lib/data/thumbnail";
 import {
   ROBOT_THUMBNAIL_OVERRIDES,
   ROBOT_THUMBNAIL_STRICT_IDS
@@ -54,15 +54,18 @@ export default async function HomePage() {
           <div className="featured-grid">
             {featuredRobots.map((robot) => {
               const manualOverrides = robot ? (ROBOT_THUMBNAIL_OVERRIDES[robot.robot_id] ?? []) : [];
+              const forcedManualThumbnailUrl =
+                manualOverrides.length > 0 ? getForcedManualThumbnailUrl(manualOverrides[0]) : null;
               const thumbnailUrl =
-                robot && ROBOT_THUMBNAIL_STRICT_IDS.has(robot.robot_id) && manualOverrides.length === 0
+                forcedManualThumbnailUrl ??
+                (robot && ROBOT_THUMBNAIL_STRICT_IDS.has(robot.robot_id) && manualOverrides.length === 0
                   ? null
                   : getThumbnailProxyUrlFromCandidates([
                       ...manualOverrides,
                       robot?.official_url ?? "",
                       robot?.spec_source_url ?? "",
                       robot?.source_database_url ?? ""
-                    ]);
+                    ]));
 
               return (
               <article key={robot?.robot_id} className="featured-card">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getRobots, getStudiesWithRobot } from "@/lib/data/archive";
-import { getThumbnailProxyUrlFromCandidates } from "@/lib/data/thumbnail";
+import { getForcedManualThumbnailUrl, getThumbnailProxyUrlFromCandidates } from "@/lib/data/thumbnail";
 import {
   ROBOT_THUMBNAIL_OVERRIDES,
   ROBOT_THUMBNAIL_STRICT_IDS
@@ -107,15 +107,18 @@ export default async function StudiesPage({ searchParams }: StudiesPageProps) {
             {filtered.map((study) => {
               const robot = robotsById.get(study.robot_id);
               const manualOverrides = ROBOT_THUMBNAIL_OVERRIDES[study.robot_id] ?? [];
+              const forcedManualThumbnailUrl =
+                manualOverrides.length > 0 ? getForcedManualThumbnailUrl(manualOverrides[0]) : null;
               const thumbnailUrl =
-                ROBOT_THUMBNAIL_STRICT_IDS.has(study.robot_id) && manualOverrides.length === 0
+                forcedManualThumbnailUrl ??
+                (ROBOT_THUMBNAIL_STRICT_IDS.has(study.robot_id) && manualOverrides.length === 0
                   ? null
                   : getThumbnailProxyUrlFromCandidates([
                       ...manualOverrides,
                       robot?.official_url ?? "",
                       robot?.spec_source_url ?? "",
                       robot?.source_database_url ?? ""
-                    ]);
+                    ]));
 
               return (
               <article key={study.study_id} className="study-card">

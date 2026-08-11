@@ -6,7 +6,7 @@ const THUMBNAIL_REVALIDATE_SECONDS = 60 * 60 * 24;
 const THUMBNAIL_TIMEOUT_MS = 8000;
 const MAX_HTML_BYTES = 1_000_000;
 const THUMBNAIL_PROXY_VERSION = "2026-08-11-2";
-const MANUAL_ASSET_PUBLIC_PATHS: Record<string, string> = {
+export const MANUAL_ASSET_PUBLIC_PATHS: Record<string, string> = {
   "asset://paro-manual": "/manual-thumbnails/paro-manual.png",
   "asset://joobie-manual": "/manual-thumbnails/joobie-manual.png",
   "asset://cocomo-manual": "/manual-thumbnails/cocomo-manual.png",
@@ -380,6 +380,23 @@ export function getThumbnailProxyUrl(pageUrl: string): string | null {
   try {
     const normalizedPageUrl = new URL(pageUrl).toString();
     return `/api/thumbnail?url=${encodeURIComponent(normalizedPageUrl)}&v=${encodeURIComponent(THUMBNAIL_PROXY_VERSION)}`;
+  } catch {
+    return null;
+  }
+}
+
+export function getForcedManualThumbnailUrl(candidate: string): string | null {
+  if (!candidate) return null;
+  const manualPath = MANUAL_ASSET_PUBLIC_PATHS[candidate];
+  if (manualPath) {
+    return manualPath;
+  }
+  try {
+    const normalized = new URL(candidate).toString();
+    if (normalized.startsWith("http://") || normalized.startsWith("https://")) {
+      return normalized;
+    }
+    return null;
   } catch {
     return null;
   }
