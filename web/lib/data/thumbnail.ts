@@ -12,6 +12,7 @@ export const MANUAL_ASSET_PUBLIC_PATHS: Record<string, string> = {
   "asset://cocomo-manual": "/manual-thumbnails/cocomo-manual.png",
   "asset://inu-manual": "/manual-thumbnails/inu-manual.png",
   "asset://ballie-manual": "/manual-thumbnails/ballie-manual.png",
+  "asset://aibo-manual": "/manual-thumbnails/aibo-manual.webp",
   "asset://alpha-mini-manual": "/manual-thumbnails/alpha-mini-manual.png",
   "asset://tuya-aura-manual": "/manual-thumbnails/tuya-aura-manual.png",
   "asset://prime-t1-manual": "/manual-thumbnails/prime-t1-manual.png",

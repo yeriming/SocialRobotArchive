@@ -25,6 +25,9 @@ const LOCAL_THUMBNAIL_ASSETS: Record<string, { publicPath: string }> = {
   "asset://ballie-manual": {
     publicPath: "/manual-thumbnails/ballie-manual.png"
   },
+  "asset://aibo-manual": {
+    publicPath: "/manual-thumbnails/aibo-manual.webp"
+  },
   "asset://alpha-mini-manual": {
     publicPath: "/manual-thumbnails/alpha-mini-manual.png"
   },

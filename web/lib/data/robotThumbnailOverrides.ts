@@ -41,6 +41,7 @@ export const ROBOT_THUMBNAIL_OVERRIDES: Record<string, string[]> = {
   "ROBOT-0034": ["https://ui44.com/images/robots/rhem.webp"],
   "ROBOT-0035": ["https://ui44.com/images/robots/fuzozo.webp"],
   "ROBOT-0036": ["asset://ballie-manual"],
+  "ROBOT-0038": ["asset://aibo-manual"],
   "ROBOT-0039": [
     "https://www.switch-bot.com/cdn/shop/files/Noa-1_3x_f38f33c5-62fe-4252-be07-7a5914a13e0c_1200x1200.webp?v=1776222050"
   ],

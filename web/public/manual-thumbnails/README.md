@@ -7,6 +7,7 @@
 - cocomo-manual.png
 - inu-manual.png
 - ballie-manual.png
+- aibo-manual.webp
 - alpha-mini-manual.png
 - tuya-aura-manual.png
 - prime-t1-manual.png
